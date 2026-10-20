@@ -1,0 +1,4846 @@
+{
+  "schema_version": "1.0.0",
+  "backup_kind": "full_local_database",
+  "created_at": "2026-10-15T17:37:28.541Z",
+  "app_version": "HandStat v0.5.0",
+  "counts": {
+    "teams": 2,
+    "players": 14,
+    "matches": 5,
+    "matchPeriods": 9,
+    "matchRosters": 30,
+    "matchEvents": 64,
+    "eventRevisions": 65,
+    "rescueSnapshots": 0,
+    "possessions": 20,
+    "playerParticipations": 16
+  },
+  "fingerprint": "fec3b114dadc3b47",
+  "data": {
+    "teams": [
+      {
+        "id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "name": "Club Atlético River Plate (Ficticio)",
+        "short_name": "RIV",
+        "is_own": true,
+        "color_primary": "#dc2626",
+        "created_at": "2026-10-13T10:00:00.000Z",
+        "updated_at": "2026-10-14T18:29:09.077Z",
+        "archived": false
+      },
+      {
+        "id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "name": "Ferro Carril Oeste (Ficticio)",
+        "short_name": "FCO",
+        "is_own": false,
+        "color_primary": "#16a34a",
+        "created_at": "2026-10-13T10:00:00.000Z",
+        "updated_at": "2026-10-13T10:00:00.000Z"
+      }
+    ],
+    "players": [
+      {
+        "id": "18eeaf56-835a-4273-80cc-f223cf64c8ae",
+        "first_name": "Carlos",
+        "default_number": 23,
+        "position": "LW",
+        "is_goalkeeper": true,
+        "archived": false,
+        "created_at": "2026-10-14T18:32:01.662Z",
+        "updated_at": "2026-10-14T18:32:01.662Z"
+      },
+      {
+        "id": "19b187d3-6e0d-4a34-b054-24506b751beb",
+        "first_name": "Lucio",
+        "default_number": 10,
+        "position": "GK",
+        "is_goalkeeper": true,
+        "archived": false,
+        "created_at": "2026-10-13T19:13:08.887Z",
+        "updated_at": "2026-10-13T19:13:08.887Z"
+      },
+      {
+        "id": "1a837524-9d84-46ba-a89f-c6999f4a4987",
+        "first_name": "Felipe",
+        "default_number": 25,
+        "position": "RB",
+        "is_goalkeeper": false,
+        "archived": false,
+        "created_at": "2026-10-14T18:34:16.360Z",
+        "updated_at": "2026-10-14T18:34:16.360Z"
+      },
+      {
+        "id": "4e36777e-97f4-4513-8d8a-20661b6eae9e",
+        "first_name": "Martin",
+        "default_number": 10,
+        "position": "CB",
+        "is_goalkeeper": false,
+        "archived": false,
+        "created_at": "2026-10-13T19:12:14.885Z",
+        "updated_at": "2026-10-13T19:12:14.885Z"
+      },
+      {
+        "id": "6b80a142-aa8c-40d9-b316-bf50858896e2",
+        "first_name": "Marcos",
+        "last_name": "Lopez",
+        "default_number": 21,
+        "position": "CB",
+        "is_goalkeeper": false,
+        "archived": false,
+        "created_at": "2026-10-14T18:30:28.242Z",
+        "updated_at": "2026-10-14T18:30:28.242Z"
+      },
+      {
+        "id": "6d72df5d-7ace-4c9d-b805-4e4c88688c7c",
+        "first_name": "carlos",
+        "last_name": "ger",
+        "default_number": 10,
+        "position": "LB",
+        "is_goalkeeper": false,
+        "archived": false,
+        "created_at": "2026-10-13T19:12:52.221Z",
+        "updated_at": "2026-10-13T19:12:52.221Z"
+      },
+      {
+        "id": "6f5420dc-a621-48fb-a970-d9478c43bcfc",
+        "first_name": "Martin",
+        "last_name": "Glarza",
+        "default_number": 20,
+        "position": "GK",
+        "is_goalkeeper": true,
+        "archived": false,
+        "created_at": "2026-10-14T18:29:53.508Z",
+        "updated_at": "2026-10-14T18:29:53.508Z"
+      },
+      {
+        "id": "84439252-a97a-4d1f-9ffa-c6a426794481",
+        "first_name": "Theo",
+        "default_number": 22,
+        "position": "LB",
+        "is_goalkeeper": false,
+        "archived": false,
+        "created_at": "2026-10-14T18:31:40.039Z",
+        "updated_at": "2026-10-14T18:31:40.039Z"
+      },
+      {
+        "id": "9c605607-6ef5-44d0-ac49-822a8462f73c",
+        "first_name": "lope",
+        "last_name": "de vega",
+        "default_number": 10,
+        "position": "LW",
+        "is_goalkeeper": false,
+        "archived": false,
+        "created_at": "2026-10-13T19:12:36.317Z",
+        "updated_at": "2026-10-13T19:12:36.317Z"
+      },
+      {
+        "id": "9fd13bb9-a565-420f-8b63-866598107af2",
+        "first_name": "Chavez",
+        "default_number": 10,
+        "position": "RB",
+        "is_goalkeeper": false,
+        "archived": false,
+        "created_at": "2026-10-13T19:13:31.211Z",
+        "updated_at": "2026-10-13T19:13:31.211Z"
+      },
+      {
+        "id": "a13e899e-dd9c-46b5-9b3d-ec48828d0eee",
+        "first_name": "Thiago",
+        "last_name": "Rodrigues",
+        "default_number": 22,
+        "position": "CB",
+        "is_goalkeeper": false,
+        "archived": true,
+        "created_at": "2026-10-14T18:31:06.921Z",
+        "updated_at": "2026-10-14T18:31:20.712Z"
+      },
+      {
+        "id": "ad4f10cb-8f50-46d2-a751-1fd93774c4c3",
+        "first_name": "Madson",
+        "default_number": 27,
+        "position": "PV",
+        "is_goalkeeper": false,
+        "archived": false,
+        "created_at": "2026-10-14T18:34:58.047Z",
+        "updated_at": "2026-10-14T18:34:58.047Z"
+      },
+      {
+        "id": "d2576dd4-3096-4527-880c-0877fed0288f",
+        "first_name": "Luis",
+        "last_name": "Garcia",
+        "default_number": 26,
+        "position": "RW",
+        "is_goalkeeper": false,
+        "archived": false,
+        "created_at": "2026-10-14T18:34:40.391Z",
+        "updated_at": "2026-10-14T18:34:40.391Z"
+      },
+      {
+        "id": "dde86c6e-f158-46f4-8e52-d6c2d7414f7c",
+        "first_name": "pablo",
+        "last_name": "simonet",
+        "default_number": 10,
+        "position": "CB",
+        "is_goalkeeper": false,
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "archived": false,
+        "created_at": "2026-10-13T18:51:21.322Z",
+        "updated_at": "2026-10-13T18:51:21.322Z"
+      }
+    ],
+    "matches": [
+      {
+        "id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "workspace_id": "018f1a2b-0000-7e8f-9a0b-000000000001",
+        "scheduled_at": "2026-10-13T18:00:00.000Z",
+        "venue": "Polideportivo de Prueba",
+        "status": "live",
+        "detail_level": "standard",
+        "home_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "away_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "rules_config": {
+          "periods_count": 2,
+          "period_duration_ms": 1800000,
+          "suspension_duration_ms": 120000,
+          "max_roster_size": 16
+        },
+        "match_revision": 46,
+        "created_at": "2026-10-13T10:00:00.000Z",
+        "updated_at": "2026-10-14T20:17:21.479Z",
+        "device_id": "8f8b8682-628a-4c4c-9f87-c12e8b9f0123"
+      },
+      {
+        "id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "workspace_id": "b0668170-e504-43ee-9a08-561c89e330fe",
+        "scheduled_at": "2026-10-14T18:36:54.233Z",
+        "competition": "Torneo Oficial",
+        "venue": "Sede Principal",
+        "status": "live",
+        "detail_level": "standard",
+        "home_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "away_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "home_team_name_snapshot": "Club Atlético River Plate (Ficticio)",
+        "away_team_name_snapshot": "Ferro Carril Oeste (Ficticio)",
+        "rules_config": {
+          "periods_count": 2,
+          "period_duration_ms": 1800000,
+          "suspension_duration_ms": 120000,
+          "max_roster_size": 16
+        },
+        "match_revision": 1,
+        "created_at": "2026-10-14T18:36:54.233Z",
+        "updated_at": "2026-10-14T18:36:54.233Z",
+        "device_id": "a684022f-35e7-4004-829e-ebdc1b2b4c68"
+      },
+      {
+        "id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "workspace_id": "803470e9-967f-4bdb-af29-7abf70a10d87",
+        "scheduled_at": "2026-10-13T18:49:50.176Z",
+        "competition": "Torneo Oficial",
+        "venue": "Sede Principal",
+        "status": "live",
+        "detail_level": "standard",
+        "home_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "away_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "home_team_name_snapshot": "Club Atlético River Plate (Ficticio)",
+        "away_team_name_snapshot": "Ferro Carril Oeste (Ficticio)",
+        "rules_config": {
+          "periods_count": 2,
+          "period_duration_ms": 1800000,
+          "suspension_duration_ms": 120000,
+          "max_roster_size": 16
+        },
+        "match_revision": 15,
+        "created_at": "2026-10-13T18:49:50.176Z",
+        "updated_at": "2026-10-13T18:52:51.139Z",
+        "device_id": "82e2eaf0-b07c-4710-9232-a6d390a8dfc2"
+      },
+      {
+        "id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "workspace_id": "454a4523-8c0f-497b-888d-d39b47d81876",
+        "scheduled_at": "2026-10-13T19:14:03.922Z",
+        "competition": "Torneo Oficial",
+        "venue": "Sede Principal",
+        "status": "live",
+        "detail_level": "standard",
+        "home_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "away_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "home_team_name_snapshot": "Club Atlético River Plate (Ficticio)",
+        "away_team_name_snapshot": "Ferro Carril Oeste (Ficticio)",
+        "rules_config": {
+          "periods_count": 2,
+          "period_duration_ms": 1800000,
+          "suspension_duration_ms": 120000,
+          "max_roster_size": 16
+        },
+        "match_revision": 7,
+        "created_at": "2026-10-13T19:14:03.922Z",
+        "updated_at": "2026-10-13T19:14:12.473Z",
+        "device_id": "af2988ae-09de-4a96-b063-5ad5557bab75"
+      },
+      {
+        "id": "eb2be905-bb09-4418-8773-0a027b6b5e64",
+        "workspace_id": "e9fe2df0-c098-4326-aebf-9c73b3720101",
+        "scheduled_at": "2026-10-14T17:27:31.442Z",
+        "competition": "Torneo Oficial",
+        "venue": "Sede Principal",
+        "status": "live",
+        "detail_level": "standard",
+        "home_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "away_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "home_team_name_snapshot": "Club Atlético River Plate (Ficticio)",
+        "away_team_name_snapshot": "Ferro Carril Oeste (Ficticio)",
+        "rules_config": {
+          "periods_count": 2,
+          "period_duration_ms": 1800000,
+          "suspension_duration_ms": 120000,
+          "max_roster_size": 16
+        },
+        "match_revision": 1,
+        "created_at": "2026-10-14T17:27:31.442Z",
+        "updated_at": "2026-10-14T17:27:31.442Z",
+        "device_id": "b0d47b6f-e832-48af-9938-80db1549698a"
+      }
+    ],
+    "matchPeriods": [
+      {
+        "id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "number": 1,
+        "kind": "REGULAR",
+        "duration_ms": 1800000
+      },
+      {
+        "id": "e5bd07f9-6d21-45c5-8462-51bd12373664",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "number": 1,
+        "kind": "REGULAR",
+        "duration_ms": 1800000
+      },
+      {
+        "id": "1b07ec2f-834d-4b7e-abad-e93e3b27e870",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "number": 2,
+        "kind": "REGULAR",
+        "duration_ms": 1800000
+      },
+      {
+        "id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "number": 1,
+        "kind": "REGULAR",
+        "duration_ms": 1800000
+      },
+      {
+        "id": "a62597e8-20f5-49a8-b1e4-9841114bcf41",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "number": 2,
+        "kind": "REGULAR",
+        "duration_ms": 1800000
+      },
+      {
+        "id": "f3fee0a3-000a-41ad-9453-13ccc61ccbee",
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "number": 1,
+        "kind": "REGULAR",
+        "duration_ms": 1800000
+      },
+      {
+        "id": "351ad21d-7e97-4444-b464-984d84929d23",
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "number": 2,
+        "kind": "REGULAR",
+        "duration_ms": 1800000
+      },
+      {
+        "id": "0424bbc6-8b91-4a3a-af7a-5f57837c7933",
+        "match_id": "eb2be905-bb09-4418-8773-0a027b6b5e64",
+        "number": 1,
+        "kind": "REGULAR",
+        "duration_ms": 1800000
+      },
+      {
+        "id": "3c1bcdb0-9703-4c58-9ba5-9fc562181c58",
+        "match_id": "eb2be905-bb09-4418-8773-0a027b6b5e64",
+        "number": 2,
+        "kind": "REGULAR",
+        "duration_ms": 1800000
+      }
+    ],
+    "matchRosters": [
+      {
+        "id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "2a8c2980-3f59-4bad-b685-4c5c9b773e72",
+        "shirt_number": 1,
+        "display_name_snapshot": "1 · M. Schulz (GK)",
+        "role": "GK",
+        "is_starter": true
+      },
+      {
+        "id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "403ddfde-840a-4031-9d40-fe03a2f4c051",
+        "shirt_number": 4,
+        "display_name_snapshot": "4 · S. Simonet (CB)",
+        "role": "FIELD",
+        "is_starter": true
+      },
+      {
+        "id": "018f1a2b-5555-7e8f-9a0b-000000000003",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "140b9224-dc9d-4b23-b65b-18e9183b4076",
+        "shirt_number": 7,
+        "display_name_snapshot": "7 · F. Pizarro (RW)",
+        "role": "FIELD",
+        "is_starter": true
+      },
+      {
+        "id": "018f1a2b-5555-7e8f-9a0b-000000000004",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "4721f2e3-8ad2-40db-b333-0a3c10869e65",
+        "shirt_number": 9,
+        "display_name_snapshot": "9 · L. Gómez (PV)",
+        "role": "FIELD",
+        "is_starter": true
+      },
+      {
+        "id": "018f1a2b-5555-7e8f-9a0b-000000000009",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "shirt_number": 12,
+        "display_name_snapshot": "12 · Rival Portero (GK)",
+        "role": "GK",
+        "is_starter": true
+      },
+      {
+        "id": "0285c1cf-6ba2-46f2-8259-37a1f4b7843d",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "dde86c6e-f158-46f4-8e52-d6c2d7414f7c",
+        "shirt_number": 15,
+        "display_name_snapshot": "15 · pablo simonet",
+        "role": "FIELD",
+        "is_starter": false
+      },
+      {
+        "id": "2797cab0-d078-4b43-8e8c-cac00bb94b49",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "1a837524-9d84-46ba-a89f-c6999f4a4987",
+        "shirt_number": 25,
+        "display_name_snapshot": "25 · Felipe",
+        "role": "FIELD",
+        "is_starter": true
+      },
+      {
+        "id": "47d6573d-ae42-4d54-8edc-2b6ad036c950",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "9fd13bb9-a565-420f-8b63-866598107af2",
+        "shirt_number": 5,
+        "display_name_snapshot": "5 · Chavez",
+        "role": "FIELD",
+        "is_starter": false
+      },
+      {
+        "id": "52e802a6-af1d-4eed-a157-67ffda40f4b9",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "84439252-a97a-4d1f-9ffa-c6a426794481",
+        "shirt_number": 18,
+        "display_name_snapshot": "18 · Theo",
+        "role": "FIELD",
+        "is_starter": false
+      },
+      {
+        "id": "780a662e-3ab6-4320-b4de-139d47f2ac7e",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "ad4f10cb-8f50-46d2-a751-1fd93774c4c3",
+        "shirt_number": 27,
+        "display_name_snapshot": "27 · Madson",
+        "role": "FIELD",
+        "is_starter": false
+      },
+      {
+        "id": "aecbc089-cc1f-4f0c-a48b-c72fa6b5cce5",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "6f5420dc-a621-48fb-a970-d9478c43bcfc",
+        "shirt_number": 20,
+        "display_name_snapshot": "20 · Martin Glarza",
+        "role": "GK",
+        "is_starter": false
+      },
+      {
+        "id": "be86b785-c9d3-4cb0-9a5d-62087ed03332",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "9c605607-6ef5-44d0-ac49-822a8462f73c",
+        "shirt_number": 7,
+        "display_name_snapshot": "7 · lope de vega",
+        "role": "FIELD",
+        "is_starter": false
+      },
+      {
+        "id": "d5f26423-e476-4d02-9506-66f9c124f6fb",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "18eeaf56-835a-4273-80cc-f223cf64c8ae",
+        "shirt_number": 23,
+        "display_name_snapshot": "23 · Carlos",
+        "role": "GK",
+        "is_starter": true
+      },
+      {
+        "id": "d71b0aa4-0976-43a1-aa6a-b858105edd1c",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "6b80a142-aa8c-40d9-b316-bf50858896e2",
+        "shirt_number": 21,
+        "display_name_snapshot": "21 · Marcos Lopez",
+        "role": "FIELD",
+        "is_starter": true
+      },
+      {
+        "id": "de2cdcb0-45ba-48b3-b9cd-82c6b6a91bc0",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "19b187d3-6e0d-4a34-b054-24506b751beb",
+        "shirt_number": 9,
+        "display_name_snapshot": "9 · Lucio",
+        "role": "GK",
+        "is_starter": true
+      },
+      {
+        "id": "e52a089d-840a-4517-b255-561fd0b01eaf",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "d2576dd4-3096-4527-880c-0877fed0288f",
+        "shirt_number": 26,
+        "display_name_snapshot": "26 · Luis Garcia",
+        "role": "FIELD",
+        "is_starter": false
+      },
+      {
+        "id": "e638cdd7-a523-4900-9cdd-081a17bd45fa",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "4e36777e-97f4-4513-8d8a-20661b6eae9e",
+        "shirt_number": 11,
+        "display_name_snapshot": "11 · Martin",
+        "role": "FIELD",
+        "is_starter": true
+      },
+      {
+        "id": "e9021157-fb60-4e2d-bdfc-fac99fd7a126",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "6d72df5d-7ace-4c9d-b805-4e4c88688c7c",
+        "shirt_number": 10,
+        "display_name_snapshot": "10 · carlos ger",
+        "role": "FIELD",
+        "is_starter": true
+      },
+      {
+        "id": "191d1c2b-3ba0-400c-a22c-42e81d43822f",
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "9fd13bb9-a565-420f-8b63-866598107af2",
+        "shirt_number": 13,
+        "display_name_snapshot": "13 · Chavez",
+        "role": "FIELD",
+        "is_starter": true
+      },
+      {
+        "id": "53a381ae-2b9a-4097-b6f0-e3a065389a51",
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "19b187d3-6e0d-4a34-b054-24506b751beb",
+        "shirt_number": 11,
+        "display_name_snapshot": "11 · Lucio",
+        "role": "GK",
+        "is_starter": true
+      },
+      {
+        "id": "57715cd0-7856-4370-831d-e815bb7cef62",
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "dde86c6e-f158-46f4-8e52-d6c2d7414f7c",
+        "shirt_number": 7,
+        "display_name_snapshot": "7 · pablo simonet",
+        "role": "FIELD",
+        "is_starter": true
+      },
+      {
+        "id": "69c09521-33ea-4f95-ace4-554a207c5603",
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "6d72df5d-7ace-4c9d-b805-4e4c88688c7c",
+        "shirt_number": 8,
+        "display_name_snapshot": "8 · carlos ger",
+        "role": "FIELD",
+        "is_starter": true
+      },
+      {
+        "id": "999b4f60-c596-405d-89b0-beb737476862",
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "4e36777e-97f4-4513-8d8a-20661b6eae9e",
+        "shirt_number": 9,
+        "display_name_snapshot": "9 · Martin",
+        "role": "FIELD",
+        "is_starter": true
+      },
+      {
+        "id": "fc896118-c1cb-47ef-bed9-6459cc8086f1",
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "9c605607-6ef5-44d0-ac49-822a8462f73c",
+        "shirt_number": 12,
+        "display_name_snapshot": "12 · lope de vega",
+        "role": "FIELD",
+        "is_starter": true
+      },
+      {
+        "id": "37c22054-f80b-42a6-b104-01758a7ed6e6",
+        "match_id": "eb2be905-bb09-4418-8773-0a027b6b5e64",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "19b187d3-6e0d-4a34-b054-24506b751beb",
+        "shirt_number": 5,
+        "display_name_snapshot": "5 · Lucio",
+        "role": "GK",
+        "is_starter": true
+      },
+      {
+        "id": "4e50865c-590c-4f61-9a99-8a13ef4a62f5",
+        "match_id": "eb2be905-bb09-4418-8773-0a027b6b5e64",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "9c605607-6ef5-44d0-ac49-822a8462f73c",
+        "shirt_number": 20,
+        "display_name_snapshot": "20 · lope de vega",
+        "role": "FIELD",
+        "is_starter": true
+      },
+      {
+        "id": "5c84477b-48c3-43dc-8050-a394666b20ff",
+        "match_id": "eb2be905-bb09-4418-8773-0a027b6b5e64",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "dde86c6e-f158-46f4-8e52-d6c2d7414f7c",
+        "shirt_number": 18,
+        "display_name_snapshot": "18 · pablo simonet",
+        "role": "FIELD",
+        "is_starter": true
+      },
+      {
+        "id": "68df7b08-4478-4025-87cb-0719d11ea5e1",
+        "match_id": "eb2be905-bb09-4418-8773-0a027b6b5e64",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "6d72df5d-7ace-4c9d-b805-4e4c88688c7c",
+        "shirt_number": 4,
+        "display_name_snapshot": "4 · carlos ger",
+        "role": "FIELD",
+        "is_starter": true
+      },
+      {
+        "id": "8b956512-51a5-4339-b1df-92ba39b32f9e",
+        "match_id": "eb2be905-bb09-4418-8773-0a027b6b5e64",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "9fd13bb9-a565-420f-8b63-866598107af2",
+        "shirt_number": 7,
+        "display_name_snapshot": "7 · Chavez",
+        "role": "FIELD",
+        "is_starter": true
+      },
+      {
+        "id": "b8dcf850-89b5-47f5-9333-864b040da960",
+        "match_id": "eb2be905-bb09-4418-8773-0a027b6b5e64",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "player_id": "4e36777e-97f4-4513-8d8a-20661b6eae9e",
+        "shirt_number": 14,
+        "display_name_snapshot": "14 · Martin",
+        "role": "FIELD",
+        "is_starter": true
+      }
+    ],
+    "matchEvents": [
+      {
+        "id": "9cfb3d50-69c0-47b8-b0ff-b105a13bca63",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 0,
+        "sport_seq": 1,
+        "audit_seq": 1,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "SAVED",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-13T17:37:42.911Z",
+        "updated_at": "2026-10-13T17:37:42.911Z",
+        "device_id": "01cf2cb3-63b0-4e65-adde-0092dc6981ec"
+      },
+      {
+        "id": "99619a5a-1482-433a-b6d1-9e585b79e142",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 0,
+        "sport_seq": 2,
+        "audit_seq": 2,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-13T17:37:43.822Z",
+        "updated_at": "2026-10-13T17:37:43.822Z",
+        "device_id": "078556d0-f4d5-48b9-9487-0048c6e4f938"
+      },
+      {
+        "id": "1862b726-fd33-4bd2-91ab-58cab7305702",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 0,
+        "sport_seq": 3,
+        "audit_seq": 3,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "MISSED",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-13T17:37:46.333Z",
+        "updated_at": "2026-10-13T17:37:46.333Z",
+        "device_id": "8c388453-b363-4204-b7bb-a7f37e4244fa"
+      },
+      {
+        "id": "c1aec51f-4563-4906-833b-f3a8a6ac3769",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "type": "PERIOD_END",
+        "clock_ms": 0,
+        "sport_seq": 4,
+        "audit_seq": 31,
+        "status": "active",
+        "payload": {},
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-14T16:57:50.622Z",
+        "updated_at": "2026-10-14T16:57:50.622Z",
+        "device_id": "6352751d-4288-4361-9e2d-c48139a1b9ef"
+      },
+      {
+        "id": "fe4b5b1a-8a6f-41bc-9673-405bd3d67b48",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "type": "PERIOD_END",
+        "clock_ms": 0,
+        "sport_seq": 5,
+        "audit_seq": 32,
+        "status": "active",
+        "payload": {},
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-14T16:57:53.705Z",
+        "updated_at": "2026-10-14T16:57:53.705Z",
+        "device_id": "4a9ca418-81f8-4d38-bcb5-1989b57c37b1"
+      },
+      {
+        "id": "a4a37d63-5a36-4e1f-9191-2ecd2968059c",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "NOTE",
+        "clock_ms": 0,
+        "sport_seq": 6,
+        "audit_seq": 33,
+        "status": "active",
+        "payload": {},
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+            "role": "RECOVERED_BY"
+          }
+        ],
+        "note": "Recuperación defensiva / Robo",
+        "version": 1,
+        "created_at": "2026-10-14T19:41:10.512Z",
+        "updated_at": "2026-10-14T19:41:10.512Z",
+        "device_id": "3419e5b4-3bd2-48ef-9fd3-49232323783a"
+      },
+      {
+        "id": "3f1eba09-ee4b-42c9-932e-8df2736ca866",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "NOTE",
+        "clock_ms": 0,
+        "sport_seq": 7,
+        "audit_seq": 34,
+        "status": "active",
+        "payload": {},
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+            "role": "BLOCKER"
+          }
+        ],
+        "note": "Bloqueo defensivo / Blocaje",
+        "version": 1,
+        "created_at": "2026-10-14T19:41:17.719Z",
+        "updated_at": "2026-10-14T19:41:17.719Z",
+        "device_id": "c8d29930-3ec8-471a-8319-b103c38d3766"
+      },
+      {
+        "id": "b0d558f9-30ba-4461-927e-49c17f2640fc",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SANCTION",
+        "clock_ms": 0,
+        "sport_seq": 8,
+        "audit_seq": 35,
+        "status": "active",
+        "payload": {},
+        "sanction_detail": {
+          "kind": "YELLOW_CARD",
+          "duration_ms": 0
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+            "role": "SANCTIONED"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-14T19:41:25.663Z",
+        "updated_at": "2026-10-14T19:41:25.663Z",
+        "device_id": "cd5bde6e-baaa-4834-b5b7-e630ab8f3f5c"
+      },
+      {
+        "id": "515a31cb-0b50-4747-9e1e-a94959af0ea6",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 0,
+        "sport_seq": 9,
+        "audit_seq": 36,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "POST",
+          "numerical_context": "UNKNOWN",
+          "is_empty_net": false
+        },
+        "numerical_situation": {
+          "own_count": 4,
+          "context": "UNKNOWN"
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-14T19:41:27.079Z",
+        "updated_at": "2026-10-14T19:41:27.079Z",
+        "device_id": "9fc3c8eb-15c5-4b06-8d69-3893338cc815"
+      },
+      {
+        "id": "92953686-9f72-4c8c-a888-1f5415be0981",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 0,
+        "sport_seq": 10,
+        "audit_seq": 37,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "SAVED",
+          "numerical_context": "UNKNOWN",
+          "is_empty_net": false
+        },
+        "numerical_situation": {
+          "own_count": 4,
+          "context": "UNKNOWN"
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-14T19:41:39.982Z",
+        "updated_at": "2026-10-14T19:41:39.982Z",
+        "device_id": "0c83fcae-5495-4fb4-bd86-96c13fdcc0e1"
+      },
+      {
+        "id": "a891d4e8-0e4b-4e2a-b96a-39b7e07afc3f",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 0,
+        "sport_seq": 11,
+        "audit_seq": 38,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "numerical_context": "UNKNOWN",
+          "is_empty_net": false
+        },
+        "numerical_situation": {
+          "own_count": 4,
+          "context": "UNKNOWN"
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000004",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-14T19:41:46.198Z",
+        "updated_at": "2026-10-14T19:41:46.198Z",
+        "device_id": "4bb63a62-1f00-41d2-81a0-763fa6959f7b"
+      },
+      {
+        "id": "32eb33be-f756-4a22-b632-76350ba52446",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 0,
+        "sport_seq": 12,
+        "audit_seq": 39,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "numerical_context": "UNKNOWN",
+          "is_empty_net": false
+        },
+        "numerical_situation": {
+          "own_count": 4,
+          "context": "UNKNOWN"
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-14T19:41:49.750Z",
+        "updated_at": "2026-10-14T19:41:49.750Z",
+        "device_id": "98fe924f-ed04-4610-a0a2-ad3cdeb20ffb"
+      },
+      {
+        "id": "9d157eee-efc7-4cc6-9834-704b5426fa3c",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 0,
+        "sport_seq": 13,
+        "audit_seq": 40,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "numerical_context": "UNKNOWN",
+          "is_empty_net": false
+        },
+        "numerical_situation": {
+          "own_count": 4,
+          "context": "UNKNOWN"
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-14T19:41:53.070Z",
+        "updated_at": "2026-10-14T19:41:53.070Z",
+        "device_id": "45d01c29-d3f0-4111-961e-7d18e5418744"
+      },
+      {
+        "id": "09620d08-c6ef-4853-b9c2-0e98d4b9c8cb",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 0,
+        "sport_seq": 14,
+        "audit_seq": 41,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "numerical_context": "UNKNOWN",
+          "is_empty_net": false
+        },
+        "numerical_situation": {
+          "own_count": 4,
+          "context": "UNKNOWN"
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000003",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-14T19:42:24.804Z",
+        "updated_at": "2026-10-14T19:42:24.804Z",
+        "device_id": "727eb330-2cb4-4b7e-98e9-0c327dbda46e"
+      },
+      {
+        "id": "69909ebb-7ed4-4f6b-8c9e-12be64cc87f3",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 0,
+        "sport_seq": 15,
+        "audit_seq": 42,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "origin_zone_code": "R9",
+          "target_zone_code": "MR",
+          "phase_code": "POSITIONAL",
+          "numerical_context": "UNKNOWN",
+          "is_empty_net": false
+        },
+        "numerical_situation": {
+          "own_count": 4,
+          "context": "UNKNOWN"
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+            "role": "GOALKEEPER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-14T20:16:55.546Z",
+        "updated_at": "2026-10-14T20:16:55.546Z",
+        "device_id": "ac8e3fd4-2338-43bc-92f6-5d212fb20316"
+      },
+      {
+        "id": "ed743c07-364d-4808-92a1-67374c673d56",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "NOTE",
+        "clock_ms": 0,
+        "sport_seq": 16,
+        "audit_seq": 43,
+        "status": "active",
+        "payload": {},
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+            "role": "RECOVERED_BY"
+          }
+        ],
+        "note": "Recuperación defensiva / Robo",
+        "version": 1,
+        "created_at": "2026-10-14T20:17:20.672Z",
+        "updated_at": "2026-10-14T20:17:20.672Z",
+        "device_id": "48f86f19-6be4-4aed-97f5-1339d581b226"
+      },
+      {
+        "id": "27978606-0155-4a52-913b-ff54d5e3ad29",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "NOTE",
+        "clock_ms": 0,
+        "sport_seq": 17,
+        "audit_seq": 44,
+        "status": "active",
+        "payload": {},
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+            "role": "BLOCKER"
+          }
+        ],
+        "note": "Bloqueo defensivo / Blocaje",
+        "version": 1,
+        "created_at": "2026-10-14T20:17:21.479Z",
+        "updated_at": "2026-10-14T20:17:21.479Z",
+        "device_id": "96696c53-d973-4100-8bad-9e903eff23c2"
+      },
+      {
+        "id": "101a7e5f-0012-47e3-b143-e62d3989124c",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 6913,
+        "sport_seq": 1,
+        "audit_seq": 4,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-13T17:41:04.892Z",
+        "updated_at": "2026-10-13T17:41:04.892Z",
+        "device_id": "4ce92286-7150-4c2f-aa0e-01477dc60ae5"
+      },
+      {
+        "id": "37390290-bd1d-4342-bb58-f2d29287dc4d",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 10307,
+        "sport_seq": 1,
+        "audit_seq": 5,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-13T17:41:08.316Z",
+        "updated_at": "2026-10-13T17:41:08.316Z",
+        "device_id": "e4d0764f-4b06-435f-97fa-7aa0d9039474"
+      },
+      {
+        "id": "c01a5290-5fd3-4874-ae91-a8f9b2528568",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 11544,
+        "sport_seq": 1,
+        "audit_seq": 6,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-13T17:44:57.514Z",
+        "updated_at": "2026-10-13T17:44:57.514Z",
+        "device_id": "cb0ff9e7-5c4d-4dda-be33-bea3e79f7bda"
+      },
+      {
+        "id": "4c769564-07a7-42f5-bf2f-8f2c2905b706",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 11544,
+        "sport_seq": 2,
+        "audit_seq": 7,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-13T17:44:57.762Z",
+        "updated_at": "2026-10-13T17:44:57.762Z",
+        "device_id": "82d7f1b2-d771-414b-8722-a6f21ca72c51"
+      },
+      {
+        "id": "43e08d61-55b6-4516-a3a7-0fa3d0f60c7c",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 11544,
+        "sport_seq": 3,
+        "audit_seq": 8,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-13T17:55:18.502Z",
+        "updated_at": "2026-10-13T17:55:18.502Z",
+        "device_id": "f02c3ab3-6f9e-4b14-a534-9271dba5f142"
+      },
+      {
+        "id": "3d8ac52a-6a29-40af-b2de-f819f34309b5",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 11544,
+        "sport_seq": 4,
+        "audit_seq": 9,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-13T17:57:27.784Z",
+        "updated_at": "2026-10-13T17:57:27.784Z",
+        "device_id": "28137686-42bb-4598-b6c6-a92513f86246"
+      },
+      {
+        "id": "eec7f13a-3334-42cd-95dc-0a0b0d7ef9d5",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 11544,
+        "sport_seq": 5,
+        "audit_seq": 10,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "SAVED",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T18:49:21.237Z",
+        "updated_at": "2026-10-13T18:49:21.237Z",
+        "device_id": "1debea37-c6e6-49ec-9e94-a372ce094be5"
+      },
+      {
+        "id": "2ebc0875-662b-4ecf-8e41-1eb1de563341",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 11544,
+        "sport_seq": 6,
+        "audit_seq": 11,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "MISSED",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T18:49:22.540Z",
+        "updated_at": "2026-10-13T18:49:22.540Z",
+        "device_id": "e331eeeb-6221-4744-b3c6-637bcda28e4c"
+      },
+      {
+        "id": "20c0451e-fd91-4e91-a912-e398842e00a8",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 11544,
+        "sport_seq": 7,
+        "audit_seq": 12,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T18:49:23.516Z",
+        "updated_at": "2026-10-13T18:49:23.516Z",
+        "device_id": "42e098c3-f31a-491f-9d0f-1cbc21e22d75"
+      },
+      {
+        "id": "dbf4aaaf-d7ce-4d99-9121-0c7919a671e7",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 11544,
+        "sport_seq": 8,
+        "audit_seq": 13,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "SAVED",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-13T18:50:12.906Z",
+        "updated_at": "2026-10-13T18:50:12.906Z",
+        "device_id": "0fdfadde-caa7-467e-a351-2af669053047"
+      },
+      {
+        "id": "9cacd0a1-3c52-4cb8-8e10-23e27cdd5cb4",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 11544,
+        "sport_seq": 9,
+        "audit_seq": 14,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "MISSED",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000004",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-13T18:50:14.082Z",
+        "updated_at": "2026-10-13T18:50:14.082Z",
+        "device_id": "0f60d617-48a9-4ca5-a669-11dfb40ba19c"
+      },
+      {
+        "id": "ad3693f3-ee56-4c95-be74-ec8d322556fb",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 11544,
+        "sport_seq": 10,
+        "audit_seq": 15,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T18:50:16.114Z",
+        "updated_at": "2026-10-13T18:50:16.114Z",
+        "device_id": "d71f487a-79b5-4866-acd0-bd8c2f924202"
+      },
+      {
+        "id": "928e2404-cde0-454c-8bf8-53c72b271798",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 11544,
+        "sport_seq": 11,
+        "audit_seq": 16,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "SAVED",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T18:50:17.290Z",
+        "updated_at": "2026-10-13T18:50:17.290Z",
+        "device_id": "486b5a6a-f766-4455-baf4-85c982a295f2"
+      },
+      {
+        "id": "27f2d9a2-0583-4fb7-ae11-716f308ae82d",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 11544,
+        "sport_seq": 12,
+        "audit_seq": 17,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "MISSED",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T18:50:17.970Z",
+        "updated_at": "2026-10-13T18:50:17.970Z",
+        "device_id": "14eafbc9-30fb-4843-8dc6-18ad6c0bda44"
+      },
+      {
+        "id": "f91da337-de68-44f0-b7cf-09cd7db7018b",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 11544,
+        "sport_seq": 13,
+        "audit_seq": 18,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000003",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-13T18:50:19.562Z",
+        "updated_at": "2026-10-13T18:50:19.562Z",
+        "device_id": "8627d151-11ba-49c9-a2ad-2de35bc8baf1"
+      },
+      {
+        "id": "f615bde7-77a3-4055-93ee-7aa1df2f6221",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "type": "PERIOD_END",
+        "clock_ms": 52916,
+        "sport_seq": 1,
+        "audit_seq": 19,
+        "status": "active",
+        "payload": {},
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-14T16:52:15.169Z",
+        "updated_at": "2026-10-14T16:52:15.169Z",
+        "device_id": "58ba8261-b70a-4c7a-9fad-77487b9e9d2f"
+      },
+      {
+        "id": "9f6ef6f6-4255-4ac8-96ea-3eda2a98bee3",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 52916,
+        "sport_seq": 2,
+        "audit_seq": 20,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-14T16:56:20.971Z",
+        "updated_at": "2026-10-14T16:56:20.971Z",
+        "device_id": "46bac586-be3c-4e58-89e7-17df909beb36"
+      },
+      {
+        "id": "61f5fd72-cb06-4fef-8726-8ff8091f0d85",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 52916,
+        "sport_seq": 3,
+        "audit_seq": 21,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "SAVED",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-14T16:56:21.779Z",
+        "updated_at": "2026-10-14T16:56:21.779Z",
+        "device_id": "d297081b-96bd-4a7a-9015-67ffe895b9ff"
+      },
+      {
+        "id": "2033a824-0dd0-44a3-af03-5f990dcc1b5d",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "NOTE",
+        "clock_ms": 52916,
+        "sport_seq": 4,
+        "audit_seq": 22,
+        "status": "active",
+        "payload": {},
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+            "role": "RECOVERED_BY"
+          }
+        ],
+        "note": "Recuperación defensiva / Robo",
+        "version": 1,
+        "created_at": "2026-10-14T16:56:22.634Z",
+        "updated_at": "2026-10-14T16:56:22.634Z",
+        "device_id": "7292f422-ed11-451c-850f-0a3f3ca85aaf"
+      },
+      {
+        "id": "c0b542b0-ec42-4959-a483-c21c54b5279d",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "NOTE",
+        "clock_ms": 52916,
+        "sport_seq": 5,
+        "audit_seq": 23,
+        "status": "active",
+        "payload": {},
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+            "role": "BLOCKER"
+          }
+        ],
+        "note": "Bloqueo defensivo / Blocaje",
+        "version": 1,
+        "created_at": "2026-10-14T16:56:23.195Z",
+        "updated_at": "2026-10-14T16:56:23.195Z",
+        "device_id": "1b3f63c6-eda4-4e0e-abbe-3253d3972c31"
+      },
+      {
+        "id": "73c52421-5303-41eb-ba67-d33aea71aa1f",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SANCTION",
+        "clock_ms": 52916,
+        "sport_seq": 6,
+        "audit_seq": 24,
+        "status": "active",
+        "payload": {},
+        "sanction_detail": {
+          "kind": "TWO_MINUTE",
+          "duration_ms": 120000
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+            "role": "SANCTIONED"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-14T16:56:25.443Z",
+        "updated_at": "2026-10-14T16:56:25.443Z",
+        "device_id": "dfb0c0a5-a104-48f8-9b0a-0abb848cdf7d"
+      },
+      {
+        "id": "691b569e-a888-4051-a27a-f741781f9681",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "TURNOVER",
+        "clock_ms": 52916,
+        "sport_seq": 7,
+        "audit_seq": 25,
+        "status": "active",
+        "payload": {},
+        "turnover_detail": {
+          "reason": "BAD_PASS"
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+            "role": "TURNOVER_BY"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-14T16:56:27.883Z",
+        "updated_at": "2026-10-14T16:56:27.883Z",
+        "device_id": "292b7b23-cfee-4125-9ee8-eec7b9d40c34"
+      },
+      {
+        "id": "35766674-f438-4661-b032-c91e89f514c7",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 52916,
+        "sport_seq": 8,
+        "audit_seq": 26,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "POST",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-14T16:56:29.130Z",
+        "updated_at": "2026-10-14T16:56:29.130Z",
+        "device_id": "3e79695a-d38f-4799-a7cb-04f84ddc7a98"
+      },
+      {
+        "id": "1ca1a6b1-a6f0-4993-940e-d0f621991886",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 52916,
+        "sport_seq": 9,
+        "audit_seq": 27,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "MISSED",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-14T16:56:29.747Z",
+        "updated_at": "2026-10-14T16:56:29.747Z",
+        "device_id": "963ff02f-85b8-4cd5-bc92-899de5205e7f"
+      },
+      {
+        "id": "90b1c902-3cb6-4730-ac50-6203299d4f4c",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 52916,
+        "sport_seq": 10,
+        "audit_seq": 28,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "origin_zone_code": "LONG",
+          "target_zone_code": "TR",
+          "numerical_context": "EQUAL",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-14T16:56:40.442Z",
+        "updated_at": "2026-10-14T16:56:40.442Z",
+        "device_id": "8679fc44-b568-43bc-8e70-5141d3061c37"
+      },
+      {
+        "id": "d5da8e0b-c5a7-46e7-b6e2-34a6db7c31fa",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "TURNOVER",
+        "clock_ms": 52916,
+        "sport_seq": 11,
+        "audit_seq": 29,
+        "status": "active",
+        "payload": {},
+        "turnover_detail": {
+          "reason": "OFFENSIVE_FOUL"
+        },
+        "participants": [
+          {
+            "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+            "role": "TURNOVER_BY"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-14T16:56:44.617Z",
+        "updated_at": "2026-10-14T16:56:44.617Z",
+        "device_id": "d65aa209-d0a3-4fd5-b244-ab9b127f60e6"
+      },
+      {
+        "id": "43a0dfad-fcc8-424f-a3e4-f33ad1c67653",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "type": "PERIOD_END",
+        "clock_ms": 52916,
+        "sport_seq": 12,
+        "audit_seq": 30,
+        "status": "voided",
+        "payload": {},
+        "participants": [],
+        "version": 2,
+        "created_at": "2026-10-14T16:57:15.701Z",
+        "updated_at": "2026-10-14T16:57:33.765Z",
+        "device_id": "cb76175a-4fd2-4a96-b0da-a1fbcdb3ef47"
+      },
+      {
+        "id": "bba76a95-c839-45a8-b8b1-2fb6ff426d1c",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 1864,
+        "sport_seq": 1,
+        "audit_seq": 3,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "SAVED",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T18:52:46.451Z",
+        "updated_at": "2026-10-13T18:52:46.451Z",
+        "device_id": "642d82d6-fcee-4790-8c35-e0783b4ea122"
+      },
+      {
+        "id": "0bf6cf45-74fc-4ab2-bd56-1e74123b6a3d",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 1864,
+        "sport_seq": 2,
+        "audit_seq": 4,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "SAVED",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T18:52:46.771Z",
+        "updated_at": "2026-10-13T18:52:46.771Z",
+        "device_id": "30eb37f5-7124-4c40-ad27-1f1a9b1d7800"
+      },
+      {
+        "id": "95910ee8-cace-4cf1-981c-168599e37b69",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 1864,
+        "sport_seq": 3,
+        "audit_seq": 5,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "SAVED",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T18:52:46.987Z",
+        "updated_at": "2026-10-13T18:52:46.987Z",
+        "device_id": "4b3f9bac-8ad2-4dc0-a36f-560dc3991ac8"
+      },
+      {
+        "id": "a5ae101f-0d53-4338-9871-6ecab63e002b",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 1864,
+        "sport_seq": 4,
+        "audit_seq": 6,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "SAVED",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T18:52:47.187Z",
+        "updated_at": "2026-10-13T18:52:47.187Z",
+        "device_id": "6f561108-5080-4b02-a045-c42db9f5b8dc"
+      },
+      {
+        "id": "5864ad54-16e5-492b-bee1-42920e4bdcae",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 1864,
+        "sport_seq": 5,
+        "audit_seq": 7,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T18:52:48.755Z",
+        "updated_at": "2026-10-13T18:52:48.755Z",
+        "device_id": "5ce84f94-2b08-411c-9b75-d2146aabe61a"
+      },
+      {
+        "id": "9fe3a5ad-01d7-45ed-b77c-354d4eb67d6b",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 1864,
+        "sport_seq": 6,
+        "audit_seq": 8,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T18:52:48.971Z",
+        "updated_at": "2026-10-13T18:52:48.971Z",
+        "device_id": "ef743490-bb31-4a5f-8002-1fe623c72926"
+      },
+      {
+        "id": "fedc7bc6-2e65-4c64-b723-a0b3aad07318",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 1864,
+        "sport_seq": 7,
+        "audit_seq": 9,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T18:52:49.195Z",
+        "updated_at": "2026-10-13T18:52:49.195Z",
+        "device_id": "4a21a57a-7a27-4e8d-9255-67e504cc7855"
+      },
+      {
+        "id": "74aabd94-4e2c-4822-b31d-2929cd553d31",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 1864,
+        "sport_seq": 8,
+        "audit_seq": 10,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T18:52:49.435Z",
+        "updated_at": "2026-10-13T18:52:49.435Z",
+        "device_id": "16be8e9b-3c76-4e89-8f55-a22ad5e4d9a9"
+      },
+      {
+        "id": "36a1f60f-b0e1-4e71-9894-b191cb76e862",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 1864,
+        "sport_seq": 9,
+        "audit_seq": 11,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "MISSED",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T18:52:50.475Z",
+        "updated_at": "2026-10-13T18:52:50.475Z",
+        "device_id": "54318e41-2cfc-425c-ba74-a840a2b2f999"
+      },
+      {
+        "id": "153d9ab6-bd9d-4406-8ca1-6251e3583997",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 1864,
+        "sport_seq": 10,
+        "audit_seq": 12,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "MISSED",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T18:52:50.715Z",
+        "updated_at": "2026-10-13T18:52:50.715Z",
+        "device_id": "d5af7e86-307d-4fe6-8095-322a9f250015"
+      },
+      {
+        "id": "5f212105-ac2a-4e5f-89c5-a4f2e17dfad8",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 1864,
+        "sport_seq": 11,
+        "audit_seq": 13,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "MISSED",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T18:52:50.931Z",
+        "updated_at": "2026-10-13T18:52:50.931Z",
+        "device_id": "7fd32cee-6116-4a2d-b01b-9870851f5ba7"
+      },
+      {
+        "id": "e15974f7-566f-4e8d-8e58-3b52f639155c",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 1864,
+        "sport_seq": 12,
+        "audit_seq": 14,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "MISSED",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T18:52:51.139Z",
+        "updated_at": "2026-10-13T18:52:51.139Z",
+        "device_id": "587f7286-dbab-4bbd-8590-178fe7ddafdd"
+      },
+      {
+        "id": "7a214a99-2dad-4eb5-b40f-f5b7cead38fc",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 8203,
+        "sport_seq": 1,
+        "audit_seq": 1,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "SAVED",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T18:51:00.856Z",
+        "updated_at": "2026-10-13T18:51:00.856Z",
+        "device_id": "1c1d6d71-96ad-49c3-b8d9-8e9b66c612ee"
+      },
+      {
+        "id": "0176fcec-07ba-4a0a-af74-c29eb47de67f",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 9111,
+        "sport_seq": 1,
+        "audit_seq": 2,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T18:51:01.728Z",
+        "updated_at": "2026-10-13T18:51:01.728Z",
+        "device_id": "2531335c-bd8b-44e7-a51a-4a29a852a658"
+      },
+      {
+        "id": "b08fc5a3-8059-43b5-b6e0-4652fe19da16",
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "period_id": "f3fee0a3-000a-41ad-9453-13ccc61ccbee",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 0,
+        "sport_seq": 1,
+        "audit_seq": 1,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "57715cd0-7856-4370-831d-e815bb7cef62",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-13T19:14:08.257Z",
+        "updated_at": "2026-10-13T19:14:08.257Z",
+        "device_id": "b529545b-da8e-473a-8b8d-7b758d691b83"
+      },
+      {
+        "id": "d47b99bf-dd8f-4000-8a72-1403a52d675b",
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "period_id": "f3fee0a3-000a-41ad-9453-13ccc61ccbee",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 0,
+        "sport_seq": 2,
+        "audit_seq": 2,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "191d1c2b-3ba0-400c-a22c-42e81d43822f",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-13T19:14:09.273Z",
+        "updated_at": "2026-10-13T19:14:09.273Z",
+        "device_id": "a7cb28b7-66ba-47cc-b202-75b889c6981a"
+      },
+      {
+        "id": "f16ef19d-b07b-4df5-8cfd-f98e347afd1b",
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "period_id": "f3fee0a3-000a-41ad-9453-13ccc61ccbee",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 0,
+        "sport_seq": 3,
+        "audit_seq": 3,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "SAVED",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "69c09521-33ea-4f95-ace4-554a207c5603",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-13T19:14:10.218Z",
+        "updated_at": "2026-10-13T19:14:10.218Z",
+        "device_id": "47277935-440e-488d-8060-51f97297fe01"
+      },
+      {
+        "id": "8d076449-f54f-4d25-a786-5c52a7952f1a",
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "period_id": "f3fee0a3-000a-41ad-9453-13ccc61ccbee",
+        "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "type": "SHOT",
+        "clock_ms": 0,
+        "sport_seq": 4,
+        "audit_seq": 4,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "MISSED",
+          "is_empty_net": false
+        },
+        "participants": [
+          {
+            "roster_id": "fc896118-c1cb-47ef-bed9-6459cc8086f1",
+            "role": "SHOOTER"
+          }
+        ],
+        "version": 1,
+        "created_at": "2026-10-13T19:14:11.073Z",
+        "updated_at": "2026-10-13T19:14:11.073Z",
+        "device_id": "0fffd58c-5268-410b-ae01-bcec27e7965c"
+      },
+      {
+        "id": "04f70e4c-d855-4a81-8431-0e11a9abb378",
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "period_id": "f3fee0a3-000a-41ad-9453-13ccc61ccbee",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 0,
+        "sport_seq": 5,
+        "audit_seq": 5,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "SAVED",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T19:14:11.705Z",
+        "updated_at": "2026-10-13T19:14:11.705Z",
+        "device_id": "39426e74-8b3f-4cf0-a191-d6123f70dd58"
+      },
+      {
+        "id": "8aa41a43-1665-4b2a-94c0-4d92edb037ab",
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "period_id": "f3fee0a3-000a-41ad-9453-13ccc61ccbee",
+        "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "type": "SHOT",
+        "clock_ms": 0,
+        "sport_seq": 6,
+        "audit_seq": 6,
+        "status": "active",
+        "payload": {},
+        "shot_detail": {
+          "result_code": "GOAL",
+          "is_empty_net": false
+        },
+        "participants": [],
+        "version": 1,
+        "created_at": "2026-10-13T19:14:12.473Z",
+        "updated_at": "2026-10-13T19:14:12.473Z",
+        "device_id": "3abfd32d-3f9b-450a-b484-3c1586e4d058"
+      }
+    ],
+    "eventRevisions": [
+      {
+        "id": "00515b89-fd97-459b-a3a8-cd05484336f9",
+        "event_id": "928e2404-cde0-454c-8bf8-53c72b271798",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "928e2404-cde0-454c-8bf8-53c72b271798",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 11544,
+          "sport_seq": 11,
+          "audit_seq": 16,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "SAVED",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T18:50:17.290Z",
+          "updated_at": "2026-10-13T18:50:17.290Z",
+          "device_id": "486b5a6a-f766-4455-baf4-85c982a295f2"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:50:17.290Z",
+        "device_id": "486b5a6a-f766-4455-baf4-85c982a295f2"
+      },
+      {
+        "id": "01ca1843-e19c-43c5-92b8-e4fb330866ad",
+        "event_id": "61f5fd72-cb06-4fef-8726-8ff8091f0d85",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "61f5fd72-cb06-4fef-8726-8ff8091f0d85",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 52916,
+          "sport_seq": 3,
+          "audit_seq": 21,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "SAVED",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-14T16:56:21.779Z",
+          "updated_at": "2026-10-14T16:56:21.779Z",
+          "device_id": "d297081b-96bd-4a7a-9015-67ffe895b9ff"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T16:56:21.779Z",
+        "device_id": "d297081b-96bd-4a7a-9015-67ffe895b9ff"
+      },
+      {
+        "id": "0360b159-13fe-4670-bdd2-c8586bfc2194",
+        "event_id": "eec7f13a-3334-42cd-95dc-0a0b0d7ef9d5",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "eec7f13a-3334-42cd-95dc-0a0b0d7ef9d5",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 11544,
+          "sport_seq": 5,
+          "audit_seq": 10,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "SAVED",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T18:49:21.237Z",
+          "updated_at": "2026-10-13T18:49:21.237Z",
+          "device_id": "1debea37-c6e6-49ec-9e94-a372ce094be5"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:49:21.237Z",
+        "device_id": "1debea37-c6e6-49ec-9e94-a372ce094be5"
+      },
+      {
+        "id": "0540648c-6601-4edb-8135-161c1fd6b23f",
+        "event_id": "92953686-9f72-4c8c-a888-1f5415be0981",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "92953686-9f72-4c8c-a888-1f5415be0981",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 0,
+          "sport_seq": 10,
+          "audit_seq": 37,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "SAVED",
+            "numerical_context": "UNKNOWN",
+            "is_empty_net": false
+          },
+          "numerical_situation": {
+            "own_count": 4,
+            "context": "UNKNOWN"
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-14T19:41:39.982Z",
+          "updated_at": "2026-10-14T19:41:39.982Z",
+          "device_id": "0c83fcae-5495-4fb4-bd86-96c13fdcc0e1"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T19:41:39.982Z",
+        "device_id": "0c83fcae-5495-4fb4-bd86-96c13fdcc0e1"
+      },
+      {
+        "id": "05ec2c61-7289-4e20-81ab-7a34a1bbeac7",
+        "event_id": "dbf4aaaf-d7ce-4d99-9121-0c7919a671e7",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "dbf4aaaf-d7ce-4d99-9121-0c7919a671e7",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 11544,
+          "sport_seq": 8,
+          "audit_seq": 13,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "SAVED",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-13T18:50:12.906Z",
+          "updated_at": "2026-10-13T18:50:12.906Z",
+          "device_id": "0fdfadde-caa7-467e-a351-2af669053047"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:50:12.906Z",
+        "device_id": "0fdfadde-caa7-467e-a351-2af669053047"
+      },
+      {
+        "id": "0820843d-5f1e-41ad-b19d-15b0f22fb73a",
+        "event_id": "c1aec51f-4563-4906-833b-f3a8a6ac3769",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "c1aec51f-4563-4906-833b-f3a8a6ac3769",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "type": "PERIOD_END",
+          "clock_ms": 0,
+          "sport_seq": 4,
+          "audit_seq": 31,
+          "status": "active",
+          "payload": {},
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-14T16:57:50.622Z",
+          "updated_at": "2026-10-14T16:57:50.622Z",
+          "device_id": "6352751d-4288-4361-9e2d-c48139a1b9ef"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T16:57:50.622Z",
+        "device_id": "6352751d-4288-4361-9e2d-c48139a1b9ef"
+      },
+      {
+        "id": "1185efcf-4ed5-4391-b381-a54567bc83b4",
+        "event_id": "37390290-bd1d-4342-bb58-f2d29287dc4d",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "37390290-bd1d-4342-bb58-f2d29287dc4d",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 10307,
+          "sport_seq": 1,
+          "audit_seq": 5,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-13T17:41:08.316Z",
+          "updated_at": "2026-10-13T17:41:08.316Z",
+          "device_id": "e4d0764f-4b06-435f-97fa-7aa0d9039474"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T17:41:08.316Z",
+        "device_id": "e4d0764f-4b06-435f-97fa-7aa0d9039474"
+      },
+      {
+        "id": "144e7211-b608-4042-92fe-bd8b8d6f0b3c",
+        "event_id": "8aa41a43-1665-4b2a-94c0-4d92edb037ab",
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "version": 1,
+        "snapshot": {
+          "id": "8aa41a43-1665-4b2a-94c0-4d92edb037ab",
+          "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+          "period_id": "f3fee0a3-000a-41ad-9453-13ccc61ccbee",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 0,
+          "sport_seq": 6,
+          "audit_seq": 6,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T19:14:12.473Z",
+          "updated_at": "2026-10-13T19:14:12.473Z",
+          "device_id": "3abfd32d-3f9b-450a-b484-3c1586e4d058"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T19:14:12.473Z",
+        "device_id": "3abfd32d-3f9b-450a-b484-3c1586e4d058"
+      },
+      {
+        "id": "24b565c3-9816-4081-8496-cb1959645222",
+        "event_id": "95910ee8-cace-4cf1-981c-168599e37b69",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "version": 1,
+        "snapshot": {
+          "id": "95910ee8-cace-4cf1-981c-168599e37b69",
+          "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+          "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 1864,
+          "sport_seq": 3,
+          "audit_seq": 5,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "SAVED",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T18:52:46.987Z",
+          "updated_at": "2026-10-13T18:52:46.987Z",
+          "device_id": "4b3f9bac-8ad2-4dc0-a36f-560dc3991ac8"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:52:46.987Z",
+        "device_id": "4b3f9bac-8ad2-4dc0-a36f-560dc3991ac8"
+      },
+      {
+        "id": "2620dbf1-9ca0-4ed4-b5f7-850e7a2f4890",
+        "event_id": "04f70e4c-d855-4a81-8431-0e11a9abb378",
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "version": 1,
+        "snapshot": {
+          "id": "04f70e4c-d855-4a81-8431-0e11a9abb378",
+          "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+          "period_id": "f3fee0a3-000a-41ad-9453-13ccc61ccbee",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 0,
+          "sport_seq": 5,
+          "audit_seq": 5,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "SAVED",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T19:14:11.705Z",
+          "updated_at": "2026-10-13T19:14:11.705Z",
+          "device_id": "39426e74-8b3f-4cf0-a191-d6123f70dd58"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T19:14:11.705Z",
+        "device_id": "39426e74-8b3f-4cf0-a191-d6123f70dd58"
+      },
+      {
+        "id": "2699d6f4-deec-48fc-8783-f853016beb03",
+        "event_id": "7a214a99-2dad-4eb5-b40f-f5b7cead38fc",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "version": 1,
+        "snapshot": {
+          "id": "7a214a99-2dad-4eb5-b40f-f5b7cead38fc",
+          "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+          "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 8203,
+          "sport_seq": 1,
+          "audit_seq": 1,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "SAVED",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T18:51:00.856Z",
+          "updated_at": "2026-10-13T18:51:00.856Z",
+          "device_id": "1c1d6d71-96ad-49c3-b8d9-8e9b66c612ee"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:51:00.856Z",
+        "device_id": "1c1d6d71-96ad-49c3-b8d9-8e9b66c612ee"
+      },
+      {
+        "id": "278abf29-bdf3-4a46-86be-c42099e3de73",
+        "event_id": "1862b726-fd33-4bd2-91ab-58cab7305702",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "1862b726-fd33-4bd2-91ab-58cab7305702",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 0,
+          "sport_seq": 3,
+          "audit_seq": 3,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "MISSED",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-13T17:37:46.333Z",
+          "updated_at": "2026-10-13T17:37:46.333Z",
+          "device_id": "8c388453-b363-4204-b7bb-a7f37e4244fa"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T17:37:46.333Z",
+        "device_id": "8c388453-b363-4204-b7bb-a7f37e4244fa"
+      },
+      {
+        "id": "28712c95-4814-4dad-8c3a-278018a5bee3",
+        "event_id": "9f6ef6f6-4255-4ac8-96ea-3eda2a98bee3",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "9f6ef6f6-4255-4ac8-96ea-3eda2a98bee3",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 52916,
+          "sport_seq": 2,
+          "audit_seq": 20,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-14T16:56:20.971Z",
+          "updated_at": "2026-10-14T16:56:20.971Z",
+          "device_id": "46bac586-be3c-4e58-89e7-17df909beb36"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T16:56:20.971Z",
+        "device_id": "46bac586-be3c-4e58-89e7-17df909beb36"
+      },
+      {
+        "id": "2ad4c747-4583-4f04-8492-27495d763b41",
+        "event_id": "fe4b5b1a-8a6f-41bc-9673-405bd3d67b48",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "fe4b5b1a-8a6f-41bc-9673-405bd3d67b48",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "type": "PERIOD_END",
+          "clock_ms": 0,
+          "sport_seq": 5,
+          "audit_seq": 32,
+          "status": "active",
+          "payload": {},
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-14T16:57:53.705Z",
+          "updated_at": "2026-10-14T16:57:53.705Z",
+          "device_id": "4a9ca418-81f8-4d38-bcb5-1989b57c37b1"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T16:57:53.705Z",
+        "device_id": "4a9ca418-81f8-4d38-bcb5-1989b57c37b1"
+      },
+      {
+        "id": "2da9f49e-9c6d-4aea-aef9-fdd37be793e8",
+        "event_id": "f91da337-de68-44f0-b7cf-09cd7db7018b",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "f91da337-de68-44f0-b7cf-09cd7db7018b",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 11544,
+          "sport_seq": 13,
+          "audit_seq": 18,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000003",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-13T18:50:19.562Z",
+          "updated_at": "2026-10-13T18:50:19.562Z",
+          "device_id": "8627d151-11ba-49c9-a2ad-2de35bc8baf1"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:50:19.562Z",
+        "device_id": "8627d151-11ba-49c9-a2ad-2de35bc8baf1"
+      },
+      {
+        "id": "30f935da-9f2b-4daf-8c4b-0bfd1539df47",
+        "event_id": "f615bde7-77a3-4055-93ee-7aa1df2f6221",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "f615bde7-77a3-4055-93ee-7aa1df2f6221",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "type": "PERIOD_END",
+          "clock_ms": 52916,
+          "sport_seq": 1,
+          "audit_seq": 19,
+          "status": "active",
+          "payload": {},
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-14T16:52:15.169Z",
+          "updated_at": "2026-10-14T16:52:15.169Z",
+          "device_id": "58ba8261-b70a-4c7a-9fad-77487b9e9d2f"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T16:52:15.169Z",
+        "device_id": "58ba8261-b70a-4c7a-9fad-77487b9e9d2f"
+      },
+      {
+        "id": "368c75cb-5f41-4c61-a9ab-2d8051918e74",
+        "event_id": "0176fcec-07ba-4a0a-af74-c29eb47de67f",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "version": 1,
+        "snapshot": {
+          "id": "0176fcec-07ba-4a0a-af74-c29eb47de67f",
+          "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+          "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 9111,
+          "sport_seq": 1,
+          "audit_seq": 2,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T18:51:01.728Z",
+          "updated_at": "2026-10-13T18:51:01.728Z",
+          "device_id": "2531335c-bd8b-44e7-a51a-4a29a852a658"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:51:01.728Z",
+        "device_id": "2531335c-bd8b-44e7-a51a-4a29a852a658"
+      },
+      {
+        "id": "3ec11d0b-7cf0-43c5-9dea-02f951c5369d",
+        "event_id": "101a7e5f-0012-47e3-b143-e62d3989124c",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "101a7e5f-0012-47e3-b143-e62d3989124c",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 6913,
+          "sport_seq": 1,
+          "audit_seq": 4,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-13T17:41:04.892Z",
+          "updated_at": "2026-10-13T17:41:04.892Z",
+          "device_id": "4ce92286-7150-4c2f-aa0e-01477dc60ae5"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T17:41:04.892Z",
+        "device_id": "4ce92286-7150-4c2f-aa0e-01477dc60ae5"
+      },
+      {
+        "id": "400cbeed-a59b-463b-89dd-3d589d2a7195",
+        "event_id": "e15974f7-566f-4e8d-8e58-3b52f639155c",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "version": 1,
+        "snapshot": {
+          "id": "e15974f7-566f-4e8d-8e58-3b52f639155c",
+          "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+          "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 1864,
+          "sport_seq": 12,
+          "audit_seq": 14,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "MISSED",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T18:52:51.139Z",
+          "updated_at": "2026-10-13T18:52:51.139Z",
+          "device_id": "587f7286-dbab-4bbd-8590-178fe7ddafdd"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:52:51.139Z",
+        "device_id": "587f7286-dbab-4bbd-8590-178fe7ddafdd"
+      },
+      {
+        "id": "42f5db2c-7375-49ac-bf26-24b32720bad4",
+        "event_id": "9cfb3d50-69c0-47b8-b0ff-b105a13bca63",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "9cfb3d50-69c0-47b8-b0ff-b105a13bca63",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 0,
+          "sport_seq": 1,
+          "audit_seq": 1,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "SAVED",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-13T17:37:42.911Z",
+          "updated_at": "2026-10-13T17:37:42.911Z",
+          "device_id": "01cf2cb3-63b0-4e65-adde-0092dc6981ec"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T17:37:42.911Z",
+        "device_id": "01cf2cb3-63b0-4e65-adde-0092dc6981ec"
+      },
+      {
+        "id": "4b47d31d-40c5-4b3d-b9ed-8a11e1f460fe",
+        "event_id": "5f212105-ac2a-4e5f-89c5-a4f2e17dfad8",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "version": 1,
+        "snapshot": {
+          "id": "5f212105-ac2a-4e5f-89c5-a4f2e17dfad8",
+          "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+          "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 1864,
+          "sport_seq": 11,
+          "audit_seq": 13,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "MISSED",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T18:52:50.931Z",
+          "updated_at": "2026-10-13T18:52:50.931Z",
+          "device_id": "7fd32cee-6116-4a2d-b01b-9870851f5ba7"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:52:50.931Z",
+        "device_id": "7fd32cee-6116-4a2d-b01b-9870851f5ba7"
+      },
+      {
+        "id": "4c816864-28d7-4f9e-914c-2644be310630",
+        "event_id": "b08fc5a3-8059-43b5-b6e0-4652fe19da16",
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "version": 1,
+        "snapshot": {
+          "id": "b08fc5a3-8059-43b5-b6e0-4652fe19da16",
+          "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+          "period_id": "f3fee0a3-000a-41ad-9453-13ccc61ccbee",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 0,
+          "sport_seq": 1,
+          "audit_seq": 1,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "57715cd0-7856-4370-831d-e815bb7cef62",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-13T19:14:08.257Z",
+          "updated_at": "2026-10-13T19:14:08.257Z",
+          "device_id": "b529545b-da8e-473a-8b8d-7b758d691b83"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T19:14:08.257Z",
+        "device_id": "b529545b-da8e-473a-8b8d-7b758d691b83"
+      },
+      {
+        "id": "4dc7062e-aeaf-4731-a89e-39543a9b28bd",
+        "event_id": "fedc7bc6-2e65-4c64-b723-a0b3aad07318",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "version": 1,
+        "snapshot": {
+          "id": "fedc7bc6-2e65-4c64-b723-a0b3aad07318",
+          "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+          "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 1864,
+          "sport_seq": 7,
+          "audit_seq": 9,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T18:52:49.195Z",
+          "updated_at": "2026-10-13T18:52:49.195Z",
+          "device_id": "4a21a57a-7a27-4e8d-9255-67e504cc7855"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:52:49.195Z",
+        "device_id": "4a21a57a-7a27-4e8d-9255-67e504cc7855"
+      },
+      {
+        "id": "4ed77864-ae2b-4239-80ac-39b4e5ad6796",
+        "event_id": "43a0dfad-fcc8-424f-a3e4-f33ad1c67653",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "43a0dfad-fcc8-424f-a3e4-f33ad1c67653",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "type": "PERIOD_END",
+          "clock_ms": 52916,
+          "sport_seq": 12,
+          "audit_seq": 30,
+          "status": "active",
+          "payload": {},
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-14T16:57:15.701Z",
+          "updated_at": "2026-10-14T16:57:15.701Z",
+          "device_id": "cb76175a-4fd2-4a96-b0da-a1fbcdb3ef47"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T16:57:15.701Z",
+        "device_id": "cb76175a-4fd2-4a96-b0da-a1fbcdb3ef47"
+      },
+      {
+        "id": "5c6b86c7-e517-43ed-9473-ad4635b42baa",
+        "event_id": "3f1eba09-ee4b-42c9-932e-8df2736ca866",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "3f1eba09-ee4b-42c9-932e-8df2736ca866",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "NOTE",
+          "clock_ms": 0,
+          "sport_seq": 7,
+          "audit_seq": 34,
+          "status": "active",
+          "payload": {},
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+              "role": "BLOCKER"
+            }
+          ],
+          "note": "Bloqueo defensivo / Blocaje",
+          "version": 1,
+          "created_at": "2026-10-14T19:41:17.719Z",
+          "updated_at": "2026-10-14T19:41:17.719Z",
+          "device_id": "c8d29930-3ec8-471a-8319-b103c38d3766"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T19:41:17.719Z",
+        "device_id": "c8d29930-3ec8-471a-8319-b103c38d3766"
+      },
+      {
+        "id": "5c885f63-6af6-4ea8-9d73-ee879a3c2acf",
+        "event_id": "691b569e-a888-4051-a27a-f741781f9681",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "691b569e-a888-4051-a27a-f741781f9681",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "TURNOVER",
+          "clock_ms": 52916,
+          "sport_seq": 7,
+          "audit_seq": 25,
+          "status": "active",
+          "payload": {},
+          "turnover_detail": {
+            "reason": "BAD_PASS"
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+              "role": "TURNOVER_BY"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-14T16:56:27.883Z",
+          "updated_at": "2026-10-14T16:56:27.883Z",
+          "device_id": "292b7b23-cfee-4125-9ee8-eec7b9d40c34"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T16:56:27.883Z",
+        "device_id": "292b7b23-cfee-4125-9ee8-eec7b9d40c34"
+      },
+      {
+        "id": "5cfc9150-9dab-4771-98d7-9b01b026296f",
+        "event_id": "8d076449-f54f-4d25-a786-5c52a7952f1a",
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "version": 1,
+        "snapshot": {
+          "id": "8d076449-f54f-4d25-a786-5c52a7952f1a",
+          "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+          "period_id": "f3fee0a3-000a-41ad-9453-13ccc61ccbee",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 0,
+          "sport_seq": 4,
+          "audit_seq": 4,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "MISSED",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "fc896118-c1cb-47ef-bed9-6459cc8086f1",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-13T19:14:11.073Z",
+          "updated_at": "2026-10-13T19:14:11.073Z",
+          "device_id": "0fffd58c-5268-410b-ae01-bcec27e7965c"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T19:14:11.073Z",
+        "device_id": "0fffd58c-5268-410b-ae01-bcec27e7965c"
+      },
+      {
+        "id": "5dfffed6-ee95-4939-8d14-1ae27fa7d792",
+        "event_id": "a4a37d63-5a36-4e1f-9191-2ecd2968059c",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "a4a37d63-5a36-4e1f-9191-2ecd2968059c",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "NOTE",
+          "clock_ms": 0,
+          "sport_seq": 6,
+          "audit_seq": 33,
+          "status": "active",
+          "payload": {},
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+              "role": "RECOVERED_BY"
+            }
+          ],
+          "note": "Recuperación defensiva / Robo",
+          "version": 1,
+          "created_at": "2026-10-14T19:41:10.512Z",
+          "updated_at": "2026-10-14T19:41:10.512Z",
+          "device_id": "3419e5b4-3bd2-48ef-9fd3-49232323783a"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T19:41:10.512Z",
+        "device_id": "3419e5b4-3bd2-48ef-9fd3-49232323783a"
+      },
+      {
+        "id": "6475c7e3-9522-4b25-96ae-352c90ce0626",
+        "event_id": "a5ae101f-0d53-4338-9871-6ecab63e002b",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "version": 1,
+        "snapshot": {
+          "id": "a5ae101f-0d53-4338-9871-6ecab63e002b",
+          "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+          "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 1864,
+          "sport_seq": 4,
+          "audit_seq": 6,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "SAVED",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T18:52:47.187Z",
+          "updated_at": "2026-10-13T18:52:47.187Z",
+          "device_id": "6f561108-5080-4b02-a045-c42db9f5b8dc"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:52:47.187Z",
+        "device_id": "6f561108-5080-4b02-a045-c42db9f5b8dc"
+      },
+      {
+        "id": "6917627f-afb1-4b72-82bb-01c79d92f1f0",
+        "event_id": "0bf6cf45-74fc-4ab2-bd56-1e74123b6a3d",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "version": 1,
+        "snapshot": {
+          "id": "0bf6cf45-74fc-4ab2-bd56-1e74123b6a3d",
+          "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+          "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 1864,
+          "sport_seq": 2,
+          "audit_seq": 4,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "SAVED",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T18:52:46.771Z",
+          "updated_at": "2026-10-13T18:52:46.771Z",
+          "device_id": "30eb37f5-7124-4c40-ad27-1f1a9b1d7800"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:52:46.771Z",
+        "device_id": "30eb37f5-7124-4c40-ad27-1f1a9b1d7800"
+      },
+      {
+        "id": "6b8a4b73-bec9-4921-8aa9-483cbbf02706",
+        "event_id": "5864ad54-16e5-492b-bee1-42920e4bdcae",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "version": 1,
+        "snapshot": {
+          "id": "5864ad54-16e5-492b-bee1-42920e4bdcae",
+          "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+          "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 1864,
+          "sport_seq": 5,
+          "audit_seq": 7,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T18:52:48.755Z",
+          "updated_at": "2026-10-13T18:52:48.755Z",
+          "device_id": "5ce84f94-2b08-411c-9b75-d2146aabe61a"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:52:48.755Z",
+        "device_id": "5ce84f94-2b08-411c-9b75-d2146aabe61a"
+      },
+      {
+        "id": "741d2c09-4120-4146-89f7-6fca554539f9",
+        "event_id": "9cacd0a1-3c52-4cb8-8e10-23e27cdd5cb4",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "9cacd0a1-3c52-4cb8-8e10-23e27cdd5cb4",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 11544,
+          "sport_seq": 9,
+          "audit_seq": 14,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "MISSED",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000004",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-13T18:50:14.082Z",
+          "updated_at": "2026-10-13T18:50:14.082Z",
+          "device_id": "0f60d617-48a9-4ca5-a669-11dfb40ba19c"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:50:14.082Z",
+        "device_id": "0f60d617-48a9-4ca5-a669-11dfb40ba19c"
+      },
+      {
+        "id": "777b6323-c747-435f-ba6a-28d9f4f38f66",
+        "event_id": "27f2d9a2-0583-4fb7-ae11-716f308ae82d",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "27f2d9a2-0583-4fb7-ae11-716f308ae82d",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 11544,
+          "sport_seq": 12,
+          "audit_seq": 17,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "MISSED",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T18:50:17.970Z",
+          "updated_at": "2026-10-13T18:50:17.970Z",
+          "device_id": "14eafbc9-30fb-4843-8dc6-18ad6c0bda44"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:50:17.970Z",
+        "device_id": "14eafbc9-30fb-4843-8dc6-18ad6c0bda44"
+      },
+      {
+        "id": "79ad6392-cf63-4ca0-94a1-9bfa0061a884",
+        "event_id": "74aabd94-4e2c-4822-b31d-2929cd553d31",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "version": 1,
+        "snapshot": {
+          "id": "74aabd94-4e2c-4822-b31d-2929cd553d31",
+          "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+          "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 1864,
+          "sport_seq": 8,
+          "audit_seq": 10,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T18:52:49.435Z",
+          "updated_at": "2026-10-13T18:52:49.435Z",
+          "device_id": "16be8e9b-3c76-4e89-8f55-a22ad5e4d9a9"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:52:49.435Z",
+        "device_id": "16be8e9b-3c76-4e89-8f55-a22ad5e4d9a9"
+      },
+      {
+        "id": "7a44bc78-a9d7-48ba-a1d5-b4259a9ec70f",
+        "event_id": "43e08d61-55b6-4516-a3a7-0fa3d0f60c7c",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "43e08d61-55b6-4516-a3a7-0fa3d0f60c7c",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 11544,
+          "sport_seq": 3,
+          "audit_seq": 8,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-13T17:55:18.502Z",
+          "updated_at": "2026-10-13T17:55:18.502Z",
+          "device_id": "f02c3ab3-6f9e-4b14-a534-9271dba5f142"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T17:55:18.502Z",
+        "device_id": "f02c3ab3-6f9e-4b14-a534-9271dba5f142"
+      },
+      {
+        "id": "7fbafdab-efd9-4e06-ac84-1a8aad2f87b9",
+        "event_id": "3d8ac52a-6a29-40af-b2de-f819f34309b5",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "3d8ac52a-6a29-40af-b2de-f819f34309b5",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 11544,
+          "sport_seq": 4,
+          "audit_seq": 9,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-13T17:57:27.784Z",
+          "updated_at": "2026-10-13T17:57:27.784Z",
+          "device_id": "28137686-42bb-4598-b6c6-a92513f86246"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T17:57:27.784Z",
+        "device_id": "28137686-42bb-4598-b6c6-a92513f86246"
+      },
+      {
+        "id": "867504e2-8035-4297-8ad2-c488e1f99922",
+        "event_id": "9fe3a5ad-01d7-45ed-b77c-354d4eb67d6b",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "version": 1,
+        "snapshot": {
+          "id": "9fe3a5ad-01d7-45ed-b77c-354d4eb67d6b",
+          "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+          "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 1864,
+          "sport_seq": 6,
+          "audit_seq": 8,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T18:52:48.971Z",
+          "updated_at": "2026-10-13T18:52:48.971Z",
+          "device_id": "ef743490-bb31-4a5f-8002-1fe623c72926"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:52:48.971Z",
+        "device_id": "ef743490-bb31-4a5f-8002-1fe623c72926"
+      },
+      {
+        "id": "8e5713ed-1f1a-4ace-8189-316ca0c60db3",
+        "event_id": "36a1f60f-b0e1-4e71-9894-b191cb76e862",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "version": 1,
+        "snapshot": {
+          "id": "36a1f60f-b0e1-4e71-9894-b191cb76e862",
+          "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+          "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 1864,
+          "sport_seq": 9,
+          "audit_seq": 11,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "MISSED",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T18:52:50.475Z",
+          "updated_at": "2026-10-13T18:52:50.475Z",
+          "device_id": "54318e41-2cfc-425c-ba74-a840a2b2f999"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:52:50.475Z",
+        "device_id": "54318e41-2cfc-425c-ba74-a840a2b2f999"
+      },
+      {
+        "id": "8e9b997e-024b-4624-ad98-a72b15059a26",
+        "event_id": "2ebc0875-662b-4ecf-8e41-1eb1de563341",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "2ebc0875-662b-4ecf-8e41-1eb1de563341",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 11544,
+          "sport_seq": 6,
+          "audit_seq": 11,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "MISSED",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T18:49:22.540Z",
+          "updated_at": "2026-10-13T18:49:22.540Z",
+          "device_id": "e331eeeb-6221-4744-b3c6-637bcda28e4c"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:49:22.540Z",
+        "device_id": "e331eeeb-6221-4744-b3c6-637bcda28e4c"
+      },
+      {
+        "id": "90273f16-de32-4f06-88d5-e4ade5aa6aa8",
+        "event_id": "43a0dfad-fcc8-424f-a3e4-f33ad1c67653",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 2,
+        "snapshot": {
+          "id": "43a0dfad-fcc8-424f-a3e4-f33ad1c67653",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "type": "PERIOD_END",
+          "clock_ms": 52916,
+          "sport_seq": 12,
+          "audit_seq": 30,
+          "status": "voided",
+          "payload": {},
+          "participants": [],
+          "version": 2,
+          "created_at": "2026-10-14T16:57:15.701Z",
+          "updated_at": "2026-10-14T16:57:33.765Z",
+          "device_id": "cb76175a-4fd2-4a96-b0da-a1fbcdb3ef47"
+        },
+        "change_kind": "void",
+        "reason": "Deshacer última acción",
+        "changed_at": "2026-10-14T16:57:33.765Z",
+        "device_id": "65bd3f2c-c378-4272-b91f-48c8d16595c1"
+      },
+      {
+        "id": "933b4457-ecfa-42db-ab97-1c1aa7979825",
+        "event_id": "d5da8e0b-c5a7-46e7-b6e2-34a6db7c31fa",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "d5da8e0b-c5a7-46e7-b6e2-34a6db7c31fa",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "TURNOVER",
+          "clock_ms": 52916,
+          "sport_seq": 11,
+          "audit_seq": 29,
+          "status": "active",
+          "payload": {},
+          "turnover_detail": {
+            "reason": "OFFENSIVE_FOUL"
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+              "role": "TURNOVER_BY"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-14T16:56:44.617Z",
+          "updated_at": "2026-10-14T16:56:44.617Z",
+          "device_id": "d65aa209-d0a3-4fd5-b244-ab9b127f60e6"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T16:56:44.617Z",
+        "device_id": "d65aa209-d0a3-4fd5-b244-ab9b127f60e6"
+      },
+      {
+        "id": "958a29a7-d031-4763-9867-f189c2841a5f",
+        "event_id": "1ca1a6b1-a6f0-4993-940e-d0f621991886",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "1ca1a6b1-a6f0-4993-940e-d0f621991886",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 52916,
+          "sport_seq": 9,
+          "audit_seq": 27,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "MISSED",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-14T16:56:29.747Z",
+          "updated_at": "2026-10-14T16:56:29.747Z",
+          "device_id": "963ff02f-85b8-4cd5-bc92-899de5205e7f"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T16:56:29.747Z",
+        "device_id": "963ff02f-85b8-4cd5-bc92-899de5205e7f"
+      },
+      {
+        "id": "97827351-e912-44fd-b192-dd870fbc1eb2",
+        "event_id": "d47b99bf-dd8f-4000-8a72-1403a52d675b",
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "version": 1,
+        "snapshot": {
+          "id": "d47b99bf-dd8f-4000-8a72-1403a52d675b",
+          "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+          "period_id": "f3fee0a3-000a-41ad-9453-13ccc61ccbee",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 0,
+          "sport_seq": 2,
+          "audit_seq": 2,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "191d1c2b-3ba0-400c-a22c-42e81d43822f",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-13T19:14:09.273Z",
+          "updated_at": "2026-10-13T19:14:09.273Z",
+          "device_id": "a7cb28b7-66ba-47cc-b202-75b889c6981a"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T19:14:09.273Z",
+        "device_id": "a7cb28b7-66ba-47cc-b202-75b889c6981a"
+      },
+      {
+        "id": "9ab43412-e731-4f9c-902f-d51cb8f8ae94",
+        "event_id": "153d9ab6-bd9d-4406-8ca1-6251e3583997",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "version": 1,
+        "snapshot": {
+          "id": "153d9ab6-bd9d-4406-8ca1-6251e3583997",
+          "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+          "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 1864,
+          "sport_seq": 10,
+          "audit_seq": 12,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "MISSED",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T18:52:50.715Z",
+          "updated_at": "2026-10-13T18:52:50.715Z",
+          "device_id": "d5af7e86-307d-4fe6-8095-322a9f250015"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:52:50.715Z",
+        "device_id": "d5af7e86-307d-4fe6-8095-322a9f250015"
+      },
+      {
+        "id": "a91f0dd9-750a-4ba7-8238-d616e6eda98b",
+        "event_id": "c0b542b0-ec42-4959-a483-c21c54b5279d",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "c0b542b0-ec42-4959-a483-c21c54b5279d",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "NOTE",
+          "clock_ms": 52916,
+          "sport_seq": 5,
+          "audit_seq": 23,
+          "status": "active",
+          "payload": {},
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+              "role": "BLOCKER"
+            }
+          ],
+          "note": "Bloqueo defensivo / Blocaje",
+          "version": 1,
+          "created_at": "2026-10-14T16:56:23.195Z",
+          "updated_at": "2026-10-14T16:56:23.195Z",
+          "device_id": "1b3f63c6-eda4-4e0e-abbe-3253d3972c31"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T16:56:23.195Z",
+        "device_id": "1b3f63c6-eda4-4e0e-abbe-3253d3972c31"
+      },
+      {
+        "id": "ab98a1cb-8188-4b67-8c1e-1ea9e9f8eaad",
+        "event_id": "4c769564-07a7-42f5-bf2f-8f2c2905b706",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "4c769564-07a7-42f5-bf2f-8f2c2905b706",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 11544,
+          "sport_seq": 2,
+          "audit_seq": 7,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-13T17:44:57.762Z",
+          "updated_at": "2026-10-13T17:44:57.762Z",
+          "device_id": "82d7f1b2-d771-414b-8722-a6f21ca72c51"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T17:44:57.762Z",
+        "device_id": "82d7f1b2-d771-414b-8722-a6f21ca72c51"
+      },
+      {
+        "id": "ae2476ae-0b38-46bb-8729-21d1ebc6ce0d",
+        "event_id": "b0d558f9-30ba-4461-927e-49c17f2640fc",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "b0d558f9-30ba-4461-927e-49c17f2640fc",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SANCTION",
+          "clock_ms": 0,
+          "sport_seq": 8,
+          "audit_seq": 35,
+          "status": "active",
+          "payload": {},
+          "sanction_detail": {
+            "kind": "YELLOW_CARD",
+            "duration_ms": 0
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+              "role": "SANCTIONED"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-14T19:41:25.663Z",
+          "updated_at": "2026-10-14T19:41:25.663Z",
+          "device_id": "cd5bde6e-baaa-4834-b5b7-e630ab8f3f5c"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T19:41:25.663Z",
+        "device_id": "cd5bde6e-baaa-4834-b5b7-e630ab8f3f5c"
+      },
+      {
+        "id": "ae50d401-15a5-4c94-8198-b329e4d8b686",
+        "event_id": "69909ebb-7ed4-4f6b-8c9e-12be64cc87f3",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "69909ebb-7ed4-4f6b-8c9e-12be64cc87f3",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 0,
+          "sport_seq": 15,
+          "audit_seq": 42,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "origin_zone_code": "R9",
+            "target_zone_code": "MR",
+            "phase_code": "POSITIONAL",
+            "numerical_context": "UNKNOWN",
+            "is_empty_net": false
+          },
+          "numerical_situation": {
+            "own_count": 4,
+            "context": "UNKNOWN"
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+              "role": "GOALKEEPER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-14T20:16:55.546Z",
+          "updated_at": "2026-10-14T20:16:55.546Z",
+          "device_id": "ac8e3fd4-2338-43bc-92f6-5d212fb20316"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T20:16:55.546Z",
+        "device_id": "ac8e3fd4-2338-43bc-92f6-5d212fb20316"
+      },
+      {
+        "id": "b527d011-9b5f-40d0-a04b-9f5d516b54be",
+        "event_id": "a891d4e8-0e4b-4e2a-b96a-39b7e07afc3f",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "a891d4e8-0e4b-4e2a-b96a-39b7e07afc3f",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 0,
+          "sport_seq": 11,
+          "audit_seq": 38,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "numerical_context": "UNKNOWN",
+            "is_empty_net": false
+          },
+          "numerical_situation": {
+            "own_count": 4,
+            "context": "UNKNOWN"
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000004",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-14T19:41:46.198Z",
+          "updated_at": "2026-10-14T19:41:46.198Z",
+          "device_id": "4bb63a62-1f00-41d2-81a0-763fa6959f7b"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T19:41:46.198Z",
+        "device_id": "4bb63a62-1f00-41d2-81a0-763fa6959f7b"
+      },
+      {
+        "id": "b672de1c-91d6-486f-8d2b-77da06cae418",
+        "event_id": "35766674-f438-4661-b032-c91e89f514c7",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "35766674-f438-4661-b032-c91e89f514c7",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 52916,
+          "sport_seq": 8,
+          "audit_seq": 26,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "POST",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-14T16:56:29.130Z",
+          "updated_at": "2026-10-14T16:56:29.130Z",
+          "device_id": "3e79695a-d38f-4799-a7cb-04f84ddc7a98"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T16:56:29.130Z",
+        "device_id": "3e79695a-d38f-4799-a7cb-04f84ddc7a98"
+      },
+      {
+        "id": "b7543852-50d7-40b2-a775-2bf4d61289a7",
+        "event_id": "32eb33be-f756-4a22-b632-76350ba52446",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "32eb33be-f756-4a22-b632-76350ba52446",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 0,
+          "sport_seq": 12,
+          "audit_seq": 39,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "numerical_context": "UNKNOWN",
+            "is_empty_net": false
+          },
+          "numerical_situation": {
+            "own_count": 4,
+            "context": "UNKNOWN"
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-14T19:41:49.750Z",
+          "updated_at": "2026-10-14T19:41:49.750Z",
+          "device_id": "98fe924f-ed04-4610-a0a2-ad3cdeb20ffb"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T19:41:49.750Z",
+        "device_id": "98fe924f-ed04-4610-a0a2-ad3cdeb20ffb"
+      },
+      {
+        "id": "c0e5198c-4445-415f-9d96-f448c405248f",
+        "event_id": "bba76a95-c839-45a8-b8b1-2fb6ff426d1c",
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "version": 1,
+        "snapshot": {
+          "id": "bba76a95-c839-45a8-b8b1-2fb6ff426d1c",
+          "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+          "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 1864,
+          "sport_seq": 1,
+          "audit_seq": 3,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "SAVED",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T18:52:46.451Z",
+          "updated_at": "2026-10-13T18:52:46.451Z",
+          "device_id": "642d82d6-fcee-4790-8c35-e0783b4ea122"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:52:46.451Z",
+        "device_id": "642d82d6-fcee-4790-8c35-e0783b4ea122"
+      },
+      {
+        "id": "c628f2d9-935c-4632-bbab-6cd4a876a17d",
+        "event_id": "09620d08-c6ef-4853-b9c2-0e98d4b9c8cb",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "09620d08-c6ef-4853-b9c2-0e98d4b9c8cb",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 0,
+          "sport_seq": 14,
+          "audit_seq": 41,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "numerical_context": "UNKNOWN",
+            "is_empty_net": false
+          },
+          "numerical_situation": {
+            "own_count": 4,
+            "context": "UNKNOWN"
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000003",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-14T19:42:24.804Z",
+          "updated_at": "2026-10-14T19:42:24.804Z",
+          "device_id": "727eb330-2cb4-4b7e-98e9-0c327dbda46e"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T19:42:24.804Z",
+        "device_id": "727eb330-2cb4-4b7e-98e9-0c327dbda46e"
+      },
+      {
+        "id": "c966004c-1d11-4bcc-a473-bbd517db999a",
+        "event_id": "515a31cb-0b50-4747-9e1e-a94959af0ea6",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "515a31cb-0b50-4747-9e1e-a94959af0ea6",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 0,
+          "sport_seq": 9,
+          "audit_seq": 36,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "POST",
+            "numerical_context": "UNKNOWN",
+            "is_empty_net": false
+          },
+          "numerical_situation": {
+            "own_count": 4,
+            "context": "UNKNOWN"
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-14T19:41:27.079Z",
+          "updated_at": "2026-10-14T19:41:27.079Z",
+          "device_id": "9fc3c8eb-15c5-4b06-8d69-3893338cc815"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T19:41:27.079Z",
+        "device_id": "9fc3c8eb-15c5-4b06-8d69-3893338cc815"
+      },
+      {
+        "id": "d4a022df-0f5d-4931-a031-422ad2754ff7",
+        "event_id": "ed743c07-364d-4808-92a1-67374c673d56",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "ed743c07-364d-4808-92a1-67374c673d56",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "NOTE",
+          "clock_ms": 0,
+          "sport_seq": 16,
+          "audit_seq": 43,
+          "status": "active",
+          "payload": {},
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+              "role": "RECOVERED_BY"
+            }
+          ],
+          "note": "Recuperación defensiva / Robo",
+          "version": 1,
+          "created_at": "2026-10-14T20:17:20.672Z",
+          "updated_at": "2026-10-14T20:17:20.672Z",
+          "device_id": "48f86f19-6be4-4aed-97f5-1339d581b226"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T20:17:20.672Z",
+        "device_id": "48f86f19-6be4-4aed-97f5-1339d581b226"
+      },
+      {
+        "id": "d779247a-d204-443f-bdf5-fad6b7199cf1",
+        "event_id": "c01a5290-5fd3-4874-ae91-a8f9b2528568",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "c01a5290-5fd3-4874-ae91-a8f9b2528568",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 11544,
+          "sport_seq": 1,
+          "audit_seq": 6,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-13T17:44:57.514Z",
+          "updated_at": "2026-10-13T17:44:57.514Z",
+          "device_id": "cb0ff9e7-5c4d-4dda-be33-bea3e79f7bda"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T17:44:57.514Z",
+        "device_id": "cb0ff9e7-5c4d-4dda-be33-bea3e79f7bda"
+      },
+      {
+        "id": "db85cd0f-79f2-4fd7-8d5f-bd60daeb88a0",
+        "event_id": "20c0451e-fd91-4e91-a912-e398842e00a8",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "20c0451e-fd91-4e91-a912-e398842e00a8",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 11544,
+          "sport_seq": 7,
+          "audit_seq": 12,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T18:49:23.516Z",
+          "updated_at": "2026-10-13T18:49:23.516Z",
+          "device_id": "42e098c3-f31a-491f-9d0f-1cbc21e22d75"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:49:23.516Z",
+        "device_id": "42e098c3-f31a-491f-9d0f-1cbc21e22d75"
+      },
+      {
+        "id": "dfa4039b-e1da-45dc-b238-a45347fd9327",
+        "event_id": "ad3693f3-ee56-4c95-be74-ec8d322556fb",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "ad3693f3-ee56-4c95-be74-ec8d322556fb",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+          "type": "SHOT",
+          "clock_ms": 11544,
+          "sport_seq": 10,
+          "audit_seq": 15,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "is_empty_net": false
+          },
+          "participants": [],
+          "version": 1,
+          "created_at": "2026-10-13T18:50:16.114Z",
+          "updated_at": "2026-10-13T18:50:16.114Z",
+          "device_id": "d71f487a-79b5-4866-acd0-bd8c2f924202"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T18:50:16.114Z",
+        "device_id": "d71f487a-79b5-4866-acd0-bd8c2f924202"
+      },
+      {
+        "id": "e40c50a3-cb67-441b-82ae-c8e9281bd11c",
+        "event_id": "90b1c902-3cb6-4730-ac50-6203299d4f4c",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "90b1c902-3cb6-4730-ac50-6203299d4f4c",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 52916,
+          "sport_seq": 10,
+          "audit_seq": 28,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "origin_zone_code": "LONG",
+            "target_zone_code": "TR",
+            "numerical_context": "EQUAL",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-14T16:56:40.442Z",
+          "updated_at": "2026-10-14T16:56:40.442Z",
+          "device_id": "8679fc44-b568-43bc-8e70-5141d3061c37"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T16:56:40.442Z",
+        "device_id": "8679fc44-b568-43bc-8e70-5141d3061c37"
+      },
+      {
+        "id": "e6e7f8ad-309d-4c7c-9622-b6f899a085b4",
+        "event_id": "f16ef19d-b07b-4df5-8cfd-f98e347afd1b",
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "version": 1,
+        "snapshot": {
+          "id": "f16ef19d-b07b-4df5-8cfd-f98e347afd1b",
+          "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+          "period_id": "f3fee0a3-000a-41ad-9453-13ccc61ccbee",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 0,
+          "sport_seq": 3,
+          "audit_seq": 3,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "SAVED",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "69c09521-33ea-4f95-ace4-554a207c5603",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-13T19:14:10.218Z",
+          "updated_at": "2026-10-13T19:14:10.218Z",
+          "device_id": "47277935-440e-488d-8060-51f97297fe01"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T19:14:10.218Z",
+        "device_id": "47277935-440e-488d-8060-51f97297fe01"
+      },
+      {
+        "id": "eae70043-1c39-4326-9847-70a72c7dcb4a",
+        "event_id": "73c52421-5303-41eb-ba67-d33aea71aa1f",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "73c52421-5303-41eb-ba67-d33aea71aa1f",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SANCTION",
+          "clock_ms": 52916,
+          "sport_seq": 6,
+          "audit_seq": 24,
+          "status": "active",
+          "payload": {},
+          "sanction_detail": {
+            "kind": "TWO_MINUTE",
+            "duration_ms": 120000
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+              "role": "SANCTIONED"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-14T16:56:25.443Z",
+          "updated_at": "2026-10-14T16:56:25.443Z",
+          "device_id": "dfb0c0a5-a104-48f8-9b0a-0abb848cdf7d"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T16:56:25.443Z",
+        "device_id": "dfb0c0a5-a104-48f8-9b0a-0abb848cdf7d"
+      },
+      {
+        "id": "ef4cfa20-e8ff-49c8-8f35-095f5c003be9",
+        "event_id": "2033a824-0dd0-44a3-af03-5f990dcc1b5d",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "2033a824-0dd0-44a3-af03-5f990dcc1b5d",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "NOTE",
+          "clock_ms": 52916,
+          "sport_seq": 4,
+          "audit_seq": 22,
+          "status": "active",
+          "payload": {},
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+              "role": "RECOVERED_BY"
+            }
+          ],
+          "note": "Recuperación defensiva / Robo",
+          "version": 1,
+          "created_at": "2026-10-14T16:56:22.634Z",
+          "updated_at": "2026-10-14T16:56:22.634Z",
+          "device_id": "7292f422-ed11-451c-850f-0a3f3ca85aaf"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T16:56:22.634Z",
+        "device_id": "7292f422-ed11-451c-850f-0a3f3ca85aaf"
+      },
+      {
+        "id": "ef5466d2-5bc4-43c1-8bb9-d794a4a28097",
+        "event_id": "27978606-0155-4a52-913b-ff54d5e3ad29",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "27978606-0155-4a52-913b-ff54d5e3ad29",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "NOTE",
+          "clock_ms": 0,
+          "sport_seq": 17,
+          "audit_seq": 44,
+          "status": "active",
+          "payload": {},
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+              "role": "BLOCKER"
+            }
+          ],
+          "note": "Bloqueo defensivo / Blocaje",
+          "version": 1,
+          "created_at": "2026-10-14T20:17:21.479Z",
+          "updated_at": "2026-10-14T20:17:21.479Z",
+          "device_id": "96696c53-d973-4100-8bad-9e903eff23c2"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T20:17:21.479Z",
+        "device_id": "96696c53-d973-4100-8bad-9e903eff23c2"
+      },
+      {
+        "id": "f072ae39-d7be-4c89-ae50-ae4de8fe8022",
+        "event_id": "99619a5a-1482-433a-b6d1-9e585b79e142",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "99619a5a-1482-433a-b6d1-9e585b79e142",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 0,
+          "sport_seq": 2,
+          "audit_seq": 2,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "is_empty_net": false
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-13T17:37:43.822Z",
+          "updated_at": "2026-10-13T17:37:43.822Z",
+          "device_id": "078556d0-f4d5-48b9-9487-0048c6e4f938"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-13T17:37:43.822Z",
+        "device_id": "078556d0-f4d5-48b9-9487-0048c6e4f938"
+      },
+      {
+        "id": "f769e5b4-7871-40b9-85cc-206e99c46764",
+        "event_id": "9d157eee-efc7-4cc6-9834-704b5426fa3c",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "version": 1,
+        "snapshot": {
+          "id": "9d157eee-efc7-4cc6-9834-704b5426fa3c",
+          "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+          "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+          "match_team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+          "type": "SHOT",
+          "clock_ms": 0,
+          "sport_seq": 13,
+          "audit_seq": 40,
+          "status": "active",
+          "payload": {},
+          "shot_detail": {
+            "result_code": "GOAL",
+            "numerical_context": "UNKNOWN",
+            "is_empty_net": false
+          },
+          "numerical_situation": {
+            "own_count": 4,
+            "context": "UNKNOWN"
+          },
+          "participants": [
+            {
+              "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+              "role": "SHOOTER"
+            }
+          ],
+          "version": 1,
+          "created_at": "2026-10-14T19:41:53.070Z",
+          "updated_at": "2026-10-14T19:41:53.070Z",
+          "device_id": "45d01c29-d3f0-4111-961e-7d18e5418744"
+        },
+        "change_kind": "create",
+        "changed_at": "2026-10-14T19:41:53.070Z",
+        "device_id": "45d01c29-d3f0-4111-961e-7d18e5418744"
+      }
+    ],
+    "rescueSnapshots": [],
+    "possessions": [
+      {
+        "id": "040c7281-3b70-46b8-b2fb-fef8399ae5cf",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "start_clock_ms": 0,
+        "start_event_id": "9d157eee-efc7-4cc6-9834-704b5426fa3c",
+        "start_reason": "GOAL_CONCEDED",
+        "is_complete": true,
+        "created_at": "2026-10-14T19:41:53.091Z",
+        "updated_at": "2026-10-14T19:42:24.818Z",
+        "end_clock_ms": 0,
+        "end_reason": "GOAL"
+      },
+      {
+        "id": "28b34153-7ce8-4552-963b-6ee40df7fe9d",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "start_clock_ms": 0,
+        "start_event_id": "09620d08-c6ef-4853-b9c2-0e98d4b9c8cb",
+        "start_reason": "GOAL_CONCEDED",
+        "is_complete": true,
+        "created_at": "2026-10-14T19:42:24.818Z",
+        "updated_at": "2026-10-14T20:16:55.567Z",
+        "end_clock_ms": 0,
+        "end_reason": "GOAL",
+        "end_event_id": "69909ebb-7ed4-4f6b-8c9e-12be64cc87f3"
+      },
+      {
+        "id": "2bd2195d-cdb4-464c-9db1-05646c10bb8e",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "start_clock_ms": 0,
+        "start_event_id": "515a31cb-0b50-4747-9e1e-a94959af0ea6",
+        "start_reason": "REBOUND",
+        "is_complete": true,
+        "created_at": "2026-10-14T19:41:27.091Z",
+        "updated_at": "2026-10-14T19:41:39.999Z",
+        "end_clock_ms": 0,
+        "end_reason": "TURNOVER"
+      },
+      {
+        "id": "3c13a6af-c2be-4b51-b565-1ec7f9263189",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "start_clock_ms": 0,
+        "start_reason": "STEAL",
+        "is_complete": true,
+        "created_at": "2026-10-14T19:41:10.527Z",
+        "updated_at": "2026-10-14T19:41:27.091Z",
+        "end_clock_ms": 0,
+        "end_reason": "TURNOVER"
+      },
+      {
+        "id": "7189d6b5-6f86-446a-baab-a42459c8bb5f",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "start_clock_ms": 0,
+        "start_event_id": "a891d4e8-0e4b-4e2a-b96a-39b7e07afc3f",
+        "start_reason": "GOAL_CONCEDED",
+        "is_complete": true,
+        "created_at": "2026-10-14T19:41:46.211Z",
+        "updated_at": "2026-10-14T19:41:49.767Z",
+        "end_clock_ms": 0,
+        "end_reason": "GOAL"
+      },
+      {
+        "id": "7905a3e1-c478-4f4b-a3eb-9bebaa1cda7b",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "start_clock_ms": 0,
+        "start_reason": "STEAL",
+        "is_complete": false,
+        "created_at": "2026-10-14T20:17:20.694Z",
+        "updated_at": "2026-10-14T20:17:20.694Z"
+      },
+      {
+        "id": "a8342502-03f7-4660-a131-e44192fd0aa8",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "start_clock_ms": 0,
+        "start_reason": "MANUAL",
+        "is_complete": true,
+        "created_at": "2026-10-14T18:29:01.990Z",
+        "updated_at": "2026-10-14T19:41:10.527Z",
+        "end_clock_ms": 0,
+        "end_reason": "TURNOVER"
+      },
+      {
+        "id": "ab5df3e6-1fe0-4a17-93ae-37f643aa9f9a",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "start_clock_ms": 0,
+        "start_event_id": "92953686-9f72-4c8c-a888-1f5415be0981",
+        "start_reason": "REBOUND",
+        "is_complete": true,
+        "created_at": "2026-10-14T19:41:39.999Z",
+        "updated_at": "2026-10-14T19:41:46.211Z",
+        "end_clock_ms": 0,
+        "end_reason": "GOAL"
+      },
+      {
+        "id": "af8dc6b5-a3d2-478f-8805-331ae107a8a7",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "start_clock_ms": 0,
+        "start_event_id": "69909ebb-7ed4-4f6b-8c9e-12be64cc87f3",
+        "start_reason": "GOAL_CONCEDED",
+        "is_complete": true,
+        "created_at": "2026-10-14T20:16:55.567Z",
+        "updated_at": "2026-10-14T20:17:20.694Z",
+        "end_clock_ms": 0,
+        "end_reason": "TURNOVER"
+      },
+      {
+        "id": "eebcda96-3a61-428e-8690-a10f9441c7ff",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "start_clock_ms": 0,
+        "start_event_id": "32eb33be-f756-4a22-b632-76350ba52446",
+        "start_reason": "GOAL_CONCEDED",
+        "is_complete": true,
+        "created_at": "2026-10-14T19:41:49.767Z",
+        "updated_at": "2026-10-14T19:41:53.091Z",
+        "end_clock_ms": 0,
+        "end_reason": "GOAL"
+      },
+      {
+        "id": "14cae9c4-18a4-4db4-b6fb-43818c1e7657",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "start_clock_ms": 52916,
+        "start_event_id": "61f5fd72-cb06-4fef-8726-8ff8091f0d85",
+        "start_reason": "REBOUND",
+        "is_complete": true,
+        "created_at": "2026-10-14T16:56:21.790Z",
+        "updated_at": "2026-10-14T16:56:22.639Z",
+        "end_clock_ms": 52916,
+        "end_reason": "TURNOVER"
+      },
+      {
+        "id": "3757f98e-6228-428a-8ae3-d5bfbcfc8e0b",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "start_clock_ms": 52916,
+        "start_event_id": "35766674-f438-4661-b032-c91e89f514c7",
+        "start_reason": "REBOUND",
+        "is_complete": true,
+        "created_at": "2026-10-14T16:56:29.138Z",
+        "updated_at": "2026-10-14T16:56:29.754Z",
+        "end_clock_ms": 52916,
+        "end_reason": "TURNOVER"
+      },
+      {
+        "id": "524fbbe9-e633-403e-b2d6-a2d16b8557a2",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "start_clock_ms": 52916,
+        "start_reason": "MANUAL",
+        "is_complete": true,
+        "created_at": "2026-10-14T16:57:42.455Z",
+        "updated_at": "2026-10-14T16:57:43.847Z",
+        "end_clock_ms": 52916,
+        "end_reason": "TURNOVER"
+      },
+      {
+        "id": "790dedeb-1951-46d4-8825-e205e20eac78",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "start_clock_ms": 52916,
+        "start_event_id": "9f6ef6f6-4255-4ac8-96ea-3eda2a98bee3",
+        "start_reason": "GOAL_CONCEDED",
+        "is_complete": true,
+        "created_at": "2026-10-14T16:56:20.989Z",
+        "updated_at": "2026-10-14T16:56:21.790Z",
+        "end_clock_ms": 52916,
+        "end_reason": "TURNOVER"
+      },
+      {
+        "id": "8cf5a312-becd-466a-b606-f41b43e63af8",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "start_clock_ms": 52916,
+        "start_reason": "MANUAL",
+        "is_complete": true,
+        "created_at": "2026-10-14T16:57:43.847Z",
+        "updated_at": "2026-10-14T16:57:50.619Z",
+        "end_clock_ms": 0,
+        "end_reason": "PERIOD_END"
+      },
+      {
+        "id": "b2d99014-c985-42e5-93cd-80b3ace2568c",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "start_clock_ms": 52916,
+        "start_event_id": "1ca1a6b1-a6f0-4993-940e-d0f621991886",
+        "start_reason": "REBOUND",
+        "is_complete": true,
+        "created_at": "2026-10-14T16:56:29.754Z",
+        "updated_at": "2026-10-14T16:56:40.461Z",
+        "end_clock_ms": 52916,
+        "end_reason": "GOAL"
+      },
+      {
+        "id": "b5f3c325-6983-40b5-a741-63aad45123c1",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "start_clock_ms": 52916,
+        "start_event_id": "90b1c902-3cb6-4730-ac50-6203299d4f4c",
+        "start_reason": "GOAL_CONCEDED",
+        "is_complete": true,
+        "created_at": "2026-10-14T16:56:40.461Z",
+        "updated_at": "2026-10-14T16:56:44.634Z",
+        "end_clock_ms": 52916,
+        "end_reason": "TURNOVER"
+      },
+      {
+        "id": "b921069c-befe-420c-91c1-b661e0aa4c21",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "start_clock_ms": 52916,
+        "start_event_id": "691b569e-a888-4051-a27a-f741781f9681",
+        "start_reason": "TURNOVER",
+        "is_complete": true,
+        "created_at": "2026-10-14T16:56:27.902Z",
+        "updated_at": "2026-10-14T16:56:29.138Z",
+        "end_clock_ms": 52916,
+        "end_reason": "TURNOVER"
+      },
+      {
+        "id": "d1bc6263-41cd-4328-952d-383aa9d284ec",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "team_id": "018f1a2b-4444-7e8f-9a0b-000000000005",
+        "start_clock_ms": 52916,
+        "start_event_id": "d5da8e0b-c5a7-46e7-b6e2-34a6db7c31fa",
+        "start_reason": "TURNOVER",
+        "is_complete": true,
+        "created_at": "2026-10-14T16:56:44.634Z",
+        "updated_at": "2026-10-14T16:57:15.695Z",
+        "end_clock_ms": 52916,
+        "end_reason": "PERIOD_END"
+      },
+      {
+        "id": "ef24fff9-7232-4922-9b7b-66ff76a5c10d",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "start_clock_ms": 52916,
+        "start_reason": "STEAL",
+        "is_complete": true,
+        "created_at": "2026-10-14T16:56:22.639Z",
+        "updated_at": "2026-10-14T16:56:27.902Z",
+        "end_clock_ms": 52916,
+        "end_reason": "TURNOVER"
+      }
+    ],
+    "playerParticipations": [
+      {
+        "id": "527cae59-5e22-499c-b6ae-4a3c06924e9d",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000002",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "in_clock_ms": 0,
+        "role_on_court": "FIELD",
+        "is_active": true,
+        "created_at": "2026-10-14T17:25:05.430Z",
+        "updated_at": "2026-10-14T17:25:05.430Z"
+      },
+      {
+        "id": "9390a9e6-69bf-4cf7-8c35-219655dfc0ee",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000003",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "in_clock_ms": 0,
+        "role_on_court": "FIELD",
+        "is_active": true,
+        "created_at": "2026-10-14T17:25:05.430Z",
+        "updated_at": "2026-10-14T17:25:05.430Z"
+      },
+      {
+        "id": "d3594623-fee7-4fc8-8aff-7602b8d9b2b1",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000001",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "in_clock_ms": 0,
+        "role_on_court": "GK",
+        "is_active": true,
+        "created_at": "2026-10-14T17:25:05.430Z",
+        "updated_at": "2026-10-14T17:25:05.430Z"
+      },
+      {
+        "id": "ed03cc62-34eb-4131-8a62-7bba71b61207",
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "roster_id": "018f1a2b-5555-7e8f-9a0b-000000000004",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "in_clock_ms": 0,
+        "role_on_court": "FIELD",
+        "is_active": true,
+        "created_at": "2026-10-14T17:25:05.430Z",
+        "updated_at": "2026-10-14T17:25:05.430Z"
+      },
+      {
+        "id": "588e8862-c615-4366-bd22-267524fb775c",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "period_id": "e5bd07f9-6d21-45c5-8462-51bd12373664",
+        "roster_id": "d5f26423-e476-4d02-9506-66f9c124f6fb",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "in_clock_ms": 0,
+        "role_on_court": "GK",
+        "is_active": true,
+        "created_at": "2026-10-14T18:39:28.922Z",
+        "updated_at": "2026-10-14T18:39:28.922Z"
+      },
+      {
+        "id": "5f0acb2e-5df2-4b5b-a6fd-1f1bedf66722",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "period_id": "e5bd07f9-6d21-45c5-8462-51bd12373664",
+        "roster_id": "2797cab0-d078-4b43-8e8c-cac00bb94b49",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "in_clock_ms": 0,
+        "role_on_court": "FIELD",
+        "is_active": true,
+        "created_at": "2026-10-14T18:39:28.922Z",
+        "updated_at": "2026-10-14T18:39:28.922Z"
+      },
+      {
+        "id": "60e1bda0-ea4b-44b8-9d41-07c88f461b32",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "period_id": "e5bd07f9-6d21-45c5-8462-51bd12373664",
+        "roster_id": "e638cdd7-a523-4900-9cdd-081a17bd45fa",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "in_clock_ms": 0,
+        "role_on_court": "FIELD",
+        "is_active": true,
+        "created_at": "2026-10-14T18:39:28.922Z",
+        "updated_at": "2026-10-14T18:39:28.922Z"
+      },
+      {
+        "id": "6f64e602-b158-496e-9b6f-ed15eef2dbd2",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "period_id": "e5bd07f9-6d21-45c5-8462-51bd12373664",
+        "roster_id": "de2cdcb0-45ba-48b3-b9cd-82c6b6a91bc0",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "in_clock_ms": 0,
+        "role_on_court": "FIELD",
+        "is_active": true,
+        "created_at": "2026-10-14T18:39:28.922Z",
+        "updated_at": "2026-10-14T18:39:28.922Z"
+      },
+      {
+        "id": "895d431f-1824-423a-b396-027bae504292",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "period_id": "e5bd07f9-6d21-45c5-8462-51bd12373664",
+        "roster_id": "d71b0aa4-0976-43a1-aa6a-b858105edd1c",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "in_clock_ms": 0,
+        "role_on_court": "FIELD",
+        "is_active": true,
+        "created_at": "2026-10-14T18:39:28.922Z",
+        "updated_at": "2026-10-14T18:39:28.922Z"
+      },
+      {
+        "id": "ddde483c-3d1e-4e08-af46-0e61764c61e2",
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "period_id": "e5bd07f9-6d21-45c5-8462-51bd12373664",
+        "roster_id": "e9021157-fb60-4e2d-bdfc-fac99fd7a126",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "in_clock_ms": 0,
+        "role_on_court": "FIELD",
+        "is_active": true,
+        "created_at": "2026-10-14T18:39:28.922Z",
+        "updated_at": "2026-10-14T18:39:28.922Z"
+      },
+      {
+        "id": "1fad564f-8633-419d-9bf5-1b29230de79b",
+        "match_id": "eb2be905-bb09-4418-8773-0a027b6b5e64",
+        "period_id": "0424bbc6-8b91-4a3a-af7a-5f57837c7933",
+        "roster_id": "b8dcf850-89b5-47f5-9333-864b040da960",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "in_clock_ms": 0,
+        "role_on_court": "FIELD",
+        "is_active": true,
+        "created_at": "2026-10-14T17:27:35.447Z",
+        "updated_at": "2026-10-14T17:27:35.447Z"
+      },
+      {
+        "id": "31368ff2-ff36-4fda-aa5f-c60f04dd3cb6",
+        "match_id": "eb2be905-bb09-4418-8773-0a027b6b5e64",
+        "period_id": "0424bbc6-8b91-4a3a-af7a-5f57837c7933",
+        "roster_id": "5c84477b-48c3-43dc-8050-a394666b20ff",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "in_clock_ms": 0,
+        "role_on_court": "FIELD",
+        "is_active": true,
+        "created_at": "2026-10-14T17:27:35.447Z",
+        "updated_at": "2026-10-14T17:27:35.447Z"
+      },
+      {
+        "id": "356090bc-05d4-4603-b9ca-10604ed798cd",
+        "match_id": "eb2be905-bb09-4418-8773-0a027b6b5e64",
+        "period_id": "0424bbc6-8b91-4a3a-af7a-5f57837c7933",
+        "roster_id": "37c22054-f80b-42a6-b104-01758a7ed6e6",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "in_clock_ms": 0,
+        "role_on_court": "GK",
+        "is_active": true,
+        "created_at": "2026-10-14T17:27:35.447Z",
+        "updated_at": "2026-10-14T17:27:35.447Z"
+      },
+      {
+        "id": "89dcdbbb-9b7c-4949-a6b9-5ceb73c4aa12",
+        "match_id": "eb2be905-bb09-4418-8773-0a027b6b5e64",
+        "period_id": "0424bbc6-8b91-4a3a-af7a-5f57837c7933",
+        "roster_id": "4e50865c-590c-4f61-9a99-8a13ef4a62f5",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "in_clock_ms": 0,
+        "role_on_court": "FIELD",
+        "is_active": true,
+        "created_at": "2026-10-14T17:27:35.447Z",
+        "updated_at": "2026-10-14T17:27:35.447Z"
+      },
+      {
+        "id": "a6b94af4-16f1-44a2-b41a-8ae1ac834051",
+        "match_id": "eb2be905-bb09-4418-8773-0a027b6b5e64",
+        "period_id": "0424bbc6-8b91-4a3a-af7a-5f57837c7933",
+        "roster_id": "8b956512-51a5-4339-b1df-92ba39b32f9e",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "in_clock_ms": 0,
+        "role_on_court": "FIELD",
+        "is_active": true,
+        "created_at": "2026-10-14T17:27:35.447Z",
+        "updated_at": "2026-10-14T17:27:35.447Z"
+      },
+      {
+        "id": "d81adf3b-cc43-4811-8a9e-7dd243804aa5",
+        "match_id": "eb2be905-bb09-4418-8773-0a027b6b5e64",
+        "period_id": "0424bbc6-8b91-4a3a-af7a-5f57837c7933",
+        "roster_id": "68df7b08-4478-4025-87cb-0719d11ea5e1",
+        "team_id": "018f1a2b-3333-7e8f-9a0b-000000000004",
+        "in_clock_ms": 0,
+        "role_on_court": "FIELD",
+        "is_active": true,
+        "created_at": "2026-10-14T17:27:35.447Z",
+        "updated_at": "2026-10-14T17:27:35.447Z"
+      }
+    ],
+    "clockAnchors": [
+      {
+        "match_id": "018f1a2b-3c4d-7e8f-9a0b-1c2d3e4f5a6b",
+        "period_id": "018f1a2b-7777-7e8f-9a0b-000000000008",
+        "running": false,
+        "accumulated_ms": 0,
+        "anchor_wall_timestamp": null,
+        "uncertain": false,
+        "updated_at": "2026-10-14T16:57:48.678Z"
+      },
+      {
+        "match_id": "45b2918c-d16a-42f2-8fc8-8a04a86811fa",
+        "period_id": "e5bd07f9-6d21-45c5-8462-51bd12373664",
+        "running": false,
+        "accumulated_ms": 0,
+        "anchor_wall_timestamp": null,
+        "uncertain": false,
+        "updated_at": "2026-10-14T18:36:55.874Z"
+      },
+      {
+        "match_id": "9dd86157-e861-470f-9cd9-12f30b0b2940",
+        "period_id": "ee592500-6e7e-4003-a2cd-4e9d71690bad",
+        "running": false,
+        "accumulated_ms": 1864,
+        "anchor_wall_timestamp": null,
+        "uncertain": false,
+        "updated_at": "2026-10-13T18:52:16.596Z"
+      },
+      {
+        "match_id": "b03a2d14-9f01-4097-973a-152a8c347525",
+        "period_id": "f3fee0a3-000a-41ad-9453-13ccc61ccbee",
+        "running": false,
+        "accumulated_ms": 0,
+        "anchor_wall_timestamp": null,
+        "uncertain": false,
+        "updated_at": "2026-10-13T19:14:05.853Z"
+      },
+      {
+        "match_id": "eb2be905-bb09-4418-8773-0a027b6b5e64",
+        "period_id": "0424bbc6-8b91-4a3a-af7a-5f57837c7933",
+        "running": false,
+        "accumulated_ms": 0,
+        "anchor_wall_timestamp": null,
+        "uncertain": false,
+        "updated_at": "2026-10-14T17:27:32.937Z"
+      }
+    ],
+    "metadata": []
+  }
+}
